@@ -8,6 +8,7 @@ final class ProbeTests: XCTestCase {
     let safari = XCUIApplication(bundleIdentifier: "com.apple.mobilesafari")
     let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
     let url = URL(string: ProcessInfo.processInfo.environment["PROBE_URL"] ?? "https://preview.ritmoapp.pages.dev/")!
+    let web = XCUIApplication(bundleIdentifier: "com.apple.webapp")
     var lines: [String] = []
     var step = 0
 
@@ -38,12 +39,28 @@ final class ProbeTests: XCTestCase {
         a.name = "zz-log.txt"; a.lifetime = .keepAlways; add(a)
     }
 
+    /// True when the area below the status bar is one flat colour (nothing drawn yet).
+    func screenLooksBlank() -> Bool {
+        guard let cg = XCUIScreen.main.screenshot().image.cgImage,
+              let data = cg.dataProvider?.data, let p = CFDataGetBytePtr(data) else { return false }
+        let bpr = cg.bytesPerRow, bpp = cg.bitsPerPixel / 8
+        func px(_ x: Int, _ y: Int) -> [UInt8] { let o = y * bpr + x * bpp; return [p[o], p[o+1], p[o+2]] }
+        let ref = px(cg.width / 2, cg.height / 2)
+        for fy in stride(from: 0.15, through: 0.9, by: 0.05) {
+            for fx in stride(from: 0.05, through: 0.95, by: 0.1) {
+                let c = px(Int(Double(cg.width) * fx), Int(Double(cg.height) * fy))
+                if zip(c, ref).contains(where: { abs(Int($0) - Int($1)) > 12 }) { return false }
+            }
+        }
+        return true
+    }
+
     // MARK: finding things
 
     /// Any element whose label starts with `text`, in the given app, that can be tapped.
     func element(_ text: String, in app: XCUIApplication, timeout: TimeInterval = 6) -> XCUIElement? {
         let p = NSPredicate(format: "label BEGINSWITH[c] %@", text)
-        let q = app.descendants(matching: .any).matching(p)
+        let q = (app === web ? app.buttons : app.descendants(matching: .any)).matching(p)
         let end = Date().addingTimeInterval(timeout)
         repeat {
             let all = q.allElementsBoundByIndex.filter { $0.exists && $0.isHittable }
@@ -121,36 +138,35 @@ final class ProbeTests: XCTestCase {
             keep("no-icon", tree: springboard); saveLog()
             XCTFail("RITMO Dev icon not found"); return
         }
-        sleep(10)
-        keep("ritmo-open", tree: springboard)
-
-        // Which process holds the web app's elements? Log the candidates once.
-        let candidates = ["com.apple.webapp", "com.apple.WebKit.WebContent", "com.apple.mobilesafari"]
-        var app = springboard
-        for id in candidates {
-            let a = XCUIApplication(bundleIdentifier: id)
-            log("candidate \(id) state \(a.state.rawValue)")
-            if a.state == .runningForeground {
-                let t = XCTAttachment(string: a.debugDescription); t.name = "tree-\(id).txt"; t.lifetime = .keepAlways; add(t)
-                if a.descendants(matching: .any).matching(NSPredicate(format: "label BEGINSWITH[c] 'Log '")).count > 0 { app = a; log("using \(id)") }
-            }
+        // Watch pixels only (no accessibility queries) until the page paints, and time it.
+        let opened = Date()
+        sleep(3)  // past the launch zoom, which still shows the Home Screen
+        var painted = false
+        while Date().timeIntervalSince(opened) < 420 {
+            if !screenLooksBlank() { painted = true; break }
+            sleep(2)
         }
+        log("first paint \(painted) after \(String(format: "%.1f", Date().timeIntervalSince(opened)))s")
+        keep("ritmo-open")
+        sleep(3)
+        let app = web
+        log("webapp state \(app.state.rawValue)")
 
         // 4. The owner's flow: dock → New food → back (twice), close the dock, open it again.
         for round in 1...2 {
             log("round \(round)")
             tap("Log ", in: app, timeout: 6)          // "Log snack" (meal name changes with the time of day)
-            sleep(3); keep("dock-\(round)", tree: app)
+            sleep(3); keep("dock-\(round)")
             tap("New food", in: app, timeout: 6)
-            sleep(3); keep("newfood-\(round)", tree: app)
+            sleep(3); keep("newfood-\(round)")
             tap("Close", in: app, timeout: 6)         // the New food ✕
-            sleep(3); keep("back-\(round)", tree: app)
+            sleep(3); keep("back-\(round)")
             tap("New food", in: app, timeout: 6)
-            sleep(3); keep("newfood-again-\(round)", tree: app)
+            sleep(3); keep("newfood-again-\(round)")
             tap("Close", in: app, timeout: 6)
-            sleep(3); keep("back-again-\(round)", tree: app)
+            sleep(3); keep("back-again-\(round)")
             tap("Close", in: app, timeout: 6)         // the dock ✕
-            sleep(3); keep("dock-closed-\(round)", tree: app)
+            sleep(3); keep("dock-closed-\(round)")
         }
         saveLog()
     }
