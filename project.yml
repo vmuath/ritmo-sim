@@ -1,0 +1,34 @@
+name: Probe
+options:
+  bundleIdPrefix: dev.ritmo.sim
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    DEVELOPMENT_TEAM: ""
+    SWIFT_VERSION: "5.0"
+targets:
+  Host:
+    type: application
+    platform: iOS
+    sources: [Host]
+    info:
+      path: Host/Info.plist
+      properties:
+        UILaunchScreen: {}
+  ProbeUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: Host
+schemes:
+  Probe:
+    build:
+      targets:
+        Host: all
+        ProbeUITests: [test]
+    test:
+      targets: [ProbeUITests]
