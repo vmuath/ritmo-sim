@@ -56,7 +56,7 @@ jobs:
           set -o pipefail
           xcodegen generate
           xcodebuild build-for-testing -project Probe.xcodeproj -scheme Probe \
-            -destination "id=$UDID" -derivedDataPath dd CODE_SIGN_IDENTITY=- | tail -5
+            -destination "id=$UDID" -derivedDataPath dd CODE_SIGN_IDENTITY=- 2>&1 | grep -E "error:|warning: unre|BUILD" | head -30
 
       - name: Record the screen while the probe runs
         continue-on-error: true
