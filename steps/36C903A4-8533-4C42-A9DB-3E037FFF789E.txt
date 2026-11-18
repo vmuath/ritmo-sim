@@ -1,0 +1,46 @@
+1795037646.927 screen (402.0, 874.0) url https://preview.ritmoapp.pages.dev/
+1795037668.255 kept 01-safari
+1795037671.217 dismiss 'Close'
+1795037678.108 NOT FOUND 'Share'
+1795037680.231 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795037686.148 kept 02-menu-Page Menu
+1795037686.687 tap 'Share' at (112.99999999999996, 338.6666666666667, 19.000000000000014, 22.66666666666663)
+1795037695.586 kept 03-share-sheet
+1795037698.713 NOT FOUND 'Add to Home Screen'
+1795037704.700 kept 04-share-sheet-up
+1795037705.729 tap 'Add to Home Screen' at (36.0, 619.6666666666667, 32.0, 35.33333333333337)
+1795037724.482 kept 05-add-screen
+1795037725.071 Add exists true enabled true
+1795037726.785 tapped Add
+1795037735.855 kept 06-home-screen
+1795037739.480 icon exists true hittable true
+1795037739.856 tap 'RITMO Dev' at (19.66666666666663, 288.6666666666667, 84.66666666666667, 90.66666666666663)
+1795038015.894 first paint true after 274.7s
+1795038016.419 kept 07-ritmo-open
+1795038019.430 webapp state 4
+1795038019.430 round 1
+1795038020.033 tap 'Log ' at (38.0, 478.0, 326.0, 49.0)
+1795038024.194 kept 08-dock-1
+1795038024.370 tap 'New food' at (20.0, 369.0, 362.0, 55.0)
+1795038028.018 kept 09-newfood-1
+1795038031.143 tap point (359.0,112.0) 'Close' by position
+1795038035.322 kept 10-back-1
+1795038035.573 tap 'New food' at (20.0, 369.0, 362.0, 55.0)
+1795038039.810 kept 11-newfood-again-1
+1795038043.171 tap point (359.0,112.0) 'Close' by position
+1795038047.053 kept 12-back-again-1
+1795038047.290 tap 'Close' at (338.0, 184.0, 44.0, 45.0)
+1795038051.033 kept 13-dock-closed-1
+1795038051.033 round 2
+1795038051.335 tap 'Log ' at (38.0, 478.0, 326.0, 49.0)
+1795038055.092 kept 14-dock-2
+1795038055.348 tap 'New food' at (20.0, 369.0, 362.0, 55.0)
+1795038059.360 kept 15-newfood-2
+1795038062.506 tap point (359.0,112.0) 'Close' by position
+1795038066.393 kept 16-back-2
+1795038066.639 tap 'New food' at (20.0, 369.0, 362.0, 55.0)
+1795038070.491 kept 17-newfood-again-2
+1795038073.723 tap point (359.0,112.0) 'Close' by position
+1795038077.563 kept 18-back-again-2
+1795038077.831 tap 'Close' at (338.0, 184.0, 44.0, 45.0)
+1795038081.638 kept 19-dock-closed-2

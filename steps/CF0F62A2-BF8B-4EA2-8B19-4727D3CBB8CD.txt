@@ -1,0 +1,133 @@
+Attributes: Application, 0x11130a440, pid: 5168, label: 'Safari'
+Element subtree:
+ →Application, 0x11130a440, pid: 5168, label: 'Safari'
+    Window (Main), 0x11130b480, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x11130a300, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x11130a080, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x111309e00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x111309cc0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SafariWindow?View=Narrow&BarsKeptMinimized=false&UUID=5827C5D0-AF61-40FF-ACCA-085D46A6624E&UsingLoweredBar=true&IsSecure=true&IsTabBarAvailable=false'
+            Other, 0x11130b0c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x111bf1680, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x107a56800, {{0.0, 0.0}, {402.0, 49.0}}
+                  Other, 0x107a55900, {{0.0, 0.0}, {402.0, 49.0}}
+                  Other, 0x107a557c0, {{0.0, 0.0}, {402.0, 49.0}}
+                Other, 0x107a55680, {{0.0, 0.0}, {402.0, 62.0}}
+                ScrollView, 0x107a55400, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x107a552c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x107a56940, {{0.0, 0.0}, {402.0, 102.0}}
+                  Other, 0x107a56440, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x107a56d00, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'TabDocument?IsLoadedUsingDesktopUserAgent=false&InReaderMode=false&UUID=3B288ABA-6AC0-47D9-84FB-299D2D5EC55D&IsPrivate=false&IsPageLoaded=true&WebViewProcessID=5223'
+                    WebView, 0x107a54140, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'WebView'
+                      WebView, 0x107a55a40, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x107a55180, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x107a55f40, {{0.0, 0.0}, {402.0, 89.0}}
+                          Other, 0x107a55040, {{0.0, 736.0}, {402.0, 138.0}}
+                        WebView, 0x107a56080, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x107a543c0, {{0.0, 0.0}, {402.0, 874.0}}
+                            Other, 0x107a54640, {{0.0, 0.0}, {402.0, 874.0}}
+                              Other, 0x107a54c80, {{0.0, 62.0}, {402.0, 874.0}}
+                                Other, 0x107a55e00, {{0.0, 62.0}, {402.0, 1086.0}}, label: 'RITMO Dev', Focused
+                                  Other, 0x107a54f00, {{0.0, 62.0}, {402.0, 1086.0}}, label: 'main', Focused
+                                    Other, 0x107a54000, {{20.0, 84.0}, {364.0, 44.0}}, label: 'section header', Focused
+                                      Other, 0x107a54500, {{20.0, 86.0}, {89.0, 40.0}}, label: 'Today', value: 1, Focused
+                                        StaticText, 0x107a54b40, {{20.0, 85.0}, {89.0, 42.0}}, label: 'Today', value: Today, Focused
+                                      Button, 0x107a54780, {{340.0, 84.0}, {44.0, 44.0}}, label: 'Calendar', Focused
+                                    Other, 0x107a54a00, {{20.0, 154.0}, {362.0, 124.0}}, label: 'Add RITMO to your Home Screen, region', Focused
+                                      StaticText, 0x107a548c0, {{82.0, 169.0}, {183.0, 19.0}}, label: 'Add to your Home Screen', value: Add to your Home S..., Focused
+                                      Other, 0x107a566c0, {{82.0, 191.0}, {240.0, 73.0}}, Focused
+                                        StaticText, 0x107a54280, {{82.0, 191.0}, {238.0, 73.0}}, label: 'RITMO then opens full screen and swipes like an app. Tap Share (under ⋯ on newer iPhones), then Add to Home Screen.', value: RITMO then opens f..., Focused
+                                      Button, 0x107a561c0, {{334.0, 158.0}, {44.0, 44.0}}, label: 'Dismiss', Focused
+                                    Other, 0x107a55b80, {{20.0, 297.0}, {362.0, 70.0}}, label: 'This week', Focused
+                                      Switch, 0x107a56300, {{20.0, 297.0}, {52.0, 70.0}}, label: 'Thursday, November 12', value: 0, Focused
+                                      Switch, 0x107a56bc0, {{71.0, 297.0}, {53.0, 70.0}}, label: 'Friday, November 13', value: 0, Focused
+                                      Switch, 0x107a56580, {{123.0, 297.0}, {53.0, 70.0}}, label: 'Saturday, November 14', value: 0, Focused
+                                      Switch, 0x107a55cc0, {{175.0, 297.0}, {52.0, 70.0}}, label: 'Sunday, November 15', value: 0, Focused
+                                      Switch, 0x107a54dc0, {{226.0, 297.0}, {53.0, 70.0}}, label: 'Monday, November 16', value: 0, Focused
+                                      Switch, 0x107a55540, {{278.0, 297.0}, {53.0, 70.0}}, label: 'Tuesday, November 17', value: 0, Focused
+                                      Switch, 0x111c38000, {{330.0, 297.0}, {52.0, 70.0}}, label: 'Wednesday, November 18', value: 1, Focused
+                                    Other, 0x111c38140, {{20.0, 382.0}, {362.0, 323.0}}, label: 'Today's nutrition, region', Focused
+                                      StaticText, 0x111c38280, {{38.0, 411.0}, {85.0, 20.0}}, label: 'Calories left', value: Calories left, Focused
+                                      StaticText, 0x111c383c0, {{38.0, 433.0}, {117.0, 54.0}}, label: '2,200', value: 2,200, Focused
+                                      StaticText, 0x111c38500, {{38.0, 488.0}, {154.0, 18.0}}, label: 'Nothing logged yet today', value: Nothing logged yet..., Focused
+                                      StaticText, 0x111c38640, {{63.0, 543.0}, {45.0, 18.0}}, label: 'Protein', value: Protein, Focused
+                                      StaticText, 0x111c38780, {{50.0, 566.0}, {76.0, 28.0}}, label: '140g left', value: 140g left, Focused
+                                      StaticText, 0x111c388c0, {{175.0, 543.0}, {37.0, 18.0}}, label: 'Carbs', value: Carbs, Focused
+                                      StaticText, 0x111c38a00, {{162.0, 566.0}, {76.0, 28.0}}, label: '250g left', value: 250g left, Focused
+                                      StaticText, 0x111c38b40, {{287.0, 543.0}, {20.0, 18.0}}, label: 'Fat', value: Fat, Focused
+                                      StaticText, 0x111c38c80, {{274.0, 566.0}, {62.0, 28.0}}, label: '70g left', value: 70g left, Focused
+                                      Button, 0x111c38dc0, {{38.0, 638.0}, {326.0, 49.0}}, label: 'Log snack', Focused
+                                    Other, 0x111c38f00, {{20.0, 714.0}, {362.0, 80.0}}, label: 'Meals', Focused
+                                      Button, 0x111c39040, {{20.0, 714.0}, {91.0, 80.0}}, label: 'Add to Breakfast', Focused
+                                      Button, 0x111c39180, {{110.0, 714.0}, {92.0, 80.0}}, label: 'Add to Lunch', Focused
+                                      Button, 0x111c392c0, {{201.0, 714.0}, {91.0, 80.0}}, label: 'Add to Dinner', Focused
+                                      Button, 0x111c39400, {{291.0, 714.0}, {92.0, 80.0}}, label: 'Add to Snack', Focused
+                                    StaticText, 0x111c39540, {{24.0, 810.0}, {240.0, 18.0}}, label: 'Using 2,200 kcal until you set your goal', value: Using 2,200 kcal u..., Focused
+                                    Button, 0x111c39680, {{326.0, 797.0}, {53.0, 45.0}}, label: 'Set goal', Focused
+                                    Other, 0x111c397c0, {{20.0, 855.0}, {362.0, 113.0}}, label: 'Habits, region', Focused
+                                      Other, 0x111c39900, {{22.0, 855.0}, {63.0, 31.0}}, label: 'Habits', value: 2, Focused
+                                        StaticText, 0x111c39a40, {{22.0, 857.0}, {63.0, 28.0}}, label: 'Habits', value: Habits, Focused
+                                      Button, 0x111c39b80, {{20.0, 896.0}, {362.0, 73.0}}, label: 'Add a habit Tick it off, or count an amount', Focused
+                                    Button, 0x111c39cc0, {{20.0, 984.0}, {362.0, 53.0}}, label: 'Add a note for today', Focused
+                                  Other, 0x111c39e00, {{16.0, 698.0}, {370.0, 66.0}}, label: 'Main navigation, navigation', Focused
+                                    Button, 0x111c39f40, {{22.0, 704.0}, {90.0, 54.0}}, label: 'Home', Focused
+                                    Button, 0x111c3a080, {{111.0, 704.0}, {91.0, 54.0}}, label: 'Trends', Focused
+                                    Button, 0x111c3a1c0, {{201.0, 704.0}, {90.0, 54.0}}, label: 'Foods', Focused
+                                    Button, 0x111c3a300, {{290.0, 704.0}, {91.0, 54.0}}, label: 'Me', Focused
+                        Other, 0x111c3a440, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x111c3a580, {{0.0, 0.0}, {402.0, 89.0}}
+                          Other, 0x111c3a6c0, {{0.0, 736.0}, {402.0, 138.0}}
+                  Other, 0x111c3a800, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x111c3a940, {{334.3, 868.0}, {7.0, 3.0}}
+                  Other, 0x111c3aa80, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x111c3abc0, {{334.3, 868.0}, {7.0, 3.0}}
+            Other, 0x111c3ad00, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'CapsuleViewController'
+              Other, 0x111c3ae40, {{0.0, 776.0}, {402.0, 98.0}}
+                Other, 0x111c3af80, {{0.0, 776.0}, {402.0, 98.0}}
+                  Other, 0x111c3b0c0, {{0.0, 776.0}, {402.0, 98.0}}
+                    Other, 0x111c3b200, {{0.0, 776.0}, {402.0, 98.0}}
+                      Other, 0x111c3b340, {{0.0, 776.0}, {402.0, 98.0}}
+                        Other, 0x111c3b480, {{0.0, 776.0}, {402.0, 98.0}}
+                          Other, 0x111c3b5c0, {{0.0, 776.0}, {402.0, 98.0}}
+                      Other, 0x111c3b700, {{0.0, 776.0}, {402.0, 98.0}}
+                        Other, 0x111c3b840, {{0.0, 776.0}, {402.0, 98.0}}
+                Other, 0x111c3b980, {{34.0, 792.0}, {48.0, 48.0}}
+                  Other, 0x111c3bac0, {{34.0, 792.0}, {48.0, 48.0}}
+                    Button, 0x111c3bc00, {{34.0, 792.0}, {48.0, 48.0}}, identifier: 'BackButton', label: 'Back', Disabled
+                Other, 0x111c3bd40, {{90.0, 792.0}, {222.0, 48.0}}
+                  Other, 0x111c3be80, {{90.0, 792.0}, {222.0, 48.0}}
+                    Other, 0x111c7c000, {{90.0, 792.0}, {222.0, 48.0}}
+                      Other, 0x111c7c140, {{90.0, 792.0}, {222.0, 48.0}}, identifier: 'CapsuleNavigationBar?isSelected=true&isDistractionControlOverlayUp=false', Selected
+                        Button, 0x111c7c280, {{90.0, 792.0}, {48.0, 48.0}}, identifier: 'MoreMenuButton', label: 'Page Menu'
+                          StaticText, 0x111c7c3c0, {{90.0, 792.0}, {0.0, 0.0}}
+                        TextField, 0x111c7c500, {{140.0, 806.0}, {128.3, 20.3}}, identifier: 'TabBarItemTitle', label: 'Address', value: ‎preview.ritmoapp....
+                        Button, 0x111c7c640, {{281.3, 805.3}, {17.7, 21.7}}, identifier: 'ReloadButton', label: 'refresh'
+                Other, 0x111c7c780, {{320.0, 792.0}, {48.0, 48.0}}
+                  Other, 0x111c7c8c0, {{320.0, 792.0}, {48.0, 48.0}}
+                    Button, 0x111c7ca00, {{320.0, 792.0}, {48.0, 48.0}}, identifier: 'TabOverviewButton', label: 'Tabs'
+      Other, 0x111c7cb40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x111c7cc80, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'PopoverDismissRegion', label: 'dismiss popup'
+        Popover, 0x111c7cdc0, {{13.0, 305.0}, {375.0, 560.0}}
+          Other, 0x111c7cf00, {{13.0, 305.0}, {375.0, 560.0}}
+            Other, 0x111c7d040, {{13.0, 305.0}, {375.0, 560.0}}
+              Other, 0x111c7d180, {{13.0, 305.0}, {375.0, 560.0}}
+                Other, 0x111c7d2c0, {{13.0, 305.0}, {375.0, 560.0}}
+                  Other, 0x111c7d400, {{13.0, 305.0}, {375.0, 560.0}}
+                    Other, 0x111c7d540, {{13.0, 305.0}, {0.0, 0.0}}
+                      Other, 0x111c7d680, {{13.0, 305.0}, {375.0, 560.0}}
+                        Other, 0x111c7d7c0, {{13.0, 305.0}, {375.0, 560.0}}
+                          Other, 0x111c7d900, {{13.0, 305.0}, {375.0, 560.0}}
+                            Other, 0x111c7da40, {{13.0, 305.0}, {375.0, 560.0}}
+                              Other, 0x111c7db80, {{13.0, 305.0}, {375.0, 560.0}}
+                                Other, 0x111c7dcc0, {{13.0, 305.0}, {375.0, 560.0}}, identifier: 'ShareSheet.RemoteContainerView'
+                                  Other, 0x111c7de00, {{13.0, 305.0}, {375.0, 560.0}}
+                                    Other, 0x111c7df40, {{13.0, 305.0}, {375.0, 560.0}}
+    Window, 0x111c7e080, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x111c7e1c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x111c7e300, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x11130a440, pid: 5168, label: 'Safari'
+Query chain:
+ →Find: Application 'com.apple.mobilesafari'
+  Output: {
+    Application, 0x111c7e440, pid: 5168, label: 'Safari'
+  }
