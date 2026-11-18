@@ -20,20 +20,23 @@ final class StatusBarTests: SimTestCase {
     func testStatusBar() throws {
         log("screen \(XCUIScreen.main.screenshot().image.size)")
         addToHomeScreen(URL(string: base)!, pageTitle: "localhost", tag: "def")
-        addToHomeScreen(URL(string: base + "?m=bt")!, pageTitle: "localhost", tag: "bt")
-
-        // black-translucent, installed that way
-        if openIcon("SB bt", tag: "bt") { sleep(2); keep("bt-readings"); dimCycle("bt") }
-
-        // default, installed that way
-        web.terminate(); sleep(2)
         if openIcon("SB default", tag: "def") {
             sleep(2); keep("def-readings"); dimCycle("def")
             // switch the installed default app to black-translucent: reload, then a full relaunch
             tap("Use translucent", in: web, timeout: 4, orAt: CGPoint(x: 110, y: 627))
             sleep(4); keep("def-switched-reload")
             web.terminate(); sleep(2)
-            if openIcon("SB default", tag: "def-relaunch") { sleep(2); keep("def-switched-relaunch"); dimCycle("def-switched") }
+            if openIcon("SB default", tag: "def-relaunch") {
+                sleep(2); keep("def-switched-relaunch"); dimCycle("def-switched")
+                // dark content under the clock: does the clock turn light?
+                tap("Dark top", in: web, timeout: 4); sleep(2); keep("def-switched-dark-top")
+                dimCycle("def-switched-dark")
+                tap("Dark top", in: web, timeout: 4); sleep(2); keep("def-switched-light-again")
+                // and back to default after a relaunch
+                tap("Use default", in: web, timeout: 4); sleep(3)
+                web.terminate(); sleep(2)
+                if openIcon("SB default", tag: "def-back") { sleep(2); keep("def-back-to-default") }
+            }
         }
         saveLog()
     }

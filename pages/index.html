@@ -36,6 +36,7 @@
 <div id="top"></div>
 <div id="readings"></div>
 <div class="row" style="top:520px"><button id="dimBtn" aria-label="Dim">Dim</button></div>
+<div class="row" style="top:680px"><button id="darkBtn" aria-label="Dark top">Dark top</button></div>
 <div class="row" style="top:600px"><button id="useBt" aria-label="Use translucent">Use translucent</button><button id="useDef" aria-label="Use default">Use default</button></div>
 <div id="dim"></div>
 <div id="probe"></div>
@@ -53,6 +54,7 @@ function show() {
 }
 show(); setTimeout(show, 500); setTimeout(show, 1500);
 document.getElementById("dimBtn").onclick = function () { document.getElementById("dim").classList.toggle("on"); };
+document.getElementById("darkBtn").onclick = function () { var t = document.getElementById("top"); t.style.background = t.style.background ? "" : "#151a19"; };
 document.getElementById("useBt").onclick = function () { localStorage.setItem("sb-mode", "black-translucent"); location.reload(); };
 document.getElementById("useDef").onclick = function () { localStorage.setItem("sb-mode", "default"); location.reload(); };
 </script>
