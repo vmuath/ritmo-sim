@@ -106,6 +106,8 @@ class SimTestCase: XCTestCase {
             }
         }
         sleep(2)
+        // The share sheet can open collapsed; expand it first.
+        if let more = element("View More", in: safari, timeout: 2) { log("expand share sheet"); more.tap(); sleep(1) }
         if !tap("Add to Home Screen", in: safari, timeout: 3) {
             safari.swipeUp(); sleep(1)
             tap("Add to Home Screen", in: safari, timeout: 3)
