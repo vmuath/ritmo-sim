@@ -78,7 +78,10 @@ final class ProbeTests: XCTestCase {
         // 1. Safari, the preview page.
         safari.launch()
         XCUIDevice.shared.system.open(url)
-        sleep(8)
+        // Wait for the page itself (its title in the address bar), not a fixed time.
+        let loaded = Date().addingTimeInterval(45)
+        while Date() < loaded && safari.descendants(matching: .any).matching(NSPredicate(format: "label CONTAINS[c] 'RITMO' OR value CONTAINS[c] 'RITMO'")).count == 0 { usleep(500_000) }
+        sleep(3)
         keep("safari", tree: safari)
         for t in ["Continue", "Not Now", "Close"] { if let e = element(t, in: safari, timeout: 1) { log("dismiss '\(t)'"); e.tap() } }
 
@@ -97,10 +100,14 @@ final class ProbeTests: XCTestCase {
             keep("share-sheet-up", tree: safari)
             added = tap("Add to Home Screen", in: safari, timeout: 3)
         }
-        sleep(2)
+        // The Add screen loads the name and icon first; Add stays disabled until then.
+        let add = safari.navigationBars.buttons["Add"].exists ? safari.navigationBars.buttons["Add"] : safari.buttons["Add"]
+        let ready = Date().addingTimeInterval(40)
+        while Date() < ready && !(add.exists && add.isEnabled) { usleep(500_000) }
         keep("add-screen", tree: safari)
-        tap("Add", in: safari, timeout: 4)
-        sleep(3)
+        log("Add exists \(add.exists) enabled \(add.isEnabled)")
+        if add.exists && add.isEnabled { add.tap(); log("tapped Add") } else { log("Add never enabled") }
+        sleep(4)
 
         // 3. Home Screen → RITMO Dev.
         XCUIDevice.shared.press(.home)
