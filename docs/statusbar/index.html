@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+// Status-bar test page for RITMO (test only). ?m=bt installs as "SB bt" with black-translucent;
+// no ?m installs as "SB default". A button stores another mode on the device and reloads, to see
+// whether an already-installed app picks a new mode up.
+(function () {
+  var q = new URLSearchParams(location.search), stored = null;
+  try { stored = localStorage.getItem("sb-mode"); } catch (e) {}
+  var installed = q.get("m") === "bt" ? "black-translucent" : "default";
+  var mode = stored || installed;
+  window.SB = { mode: mode, installed: installed, stored: stored };
+  document.write('<meta name="apple-mobile-web-app-status-bar-style" content="' + mode + '">');
+  document.write('<meta name="apple-mobile-web-app-title" content="' + (installed === "default" ? "SB default" : "SB bt") + '">');
+  document.write('<title>' + (installed === "default" ? "SB default" : "SB bt") + '</title>');
+})();
+</script>
+<style>
+  html { background: #f4f2ec; }
+  body { margin: 0; font: 17px/1.35 -apple-system, system-ui, sans-serif; color: #151a19; min-height: 100vh; }
+  #top { position: absolute; left: 0; right: 0; top: 0; height: 120px; background: #cfe0f5; }
+  #readings { position: absolute; top: 230px; left: 20px; right: 20px; font-size: 20px; font-weight: 600; }
+  #readings div { margin-bottom: 6px; }
+  .row { position: absolute; left: 20px; right: 20px; display: flex; gap: 12px; }
+  button { flex: 1; font: inherit; font-weight: 600; padding: 14px; border: 0; border-radius: 14px; background: #151a19; color: #fff; }
+  #dim { position: fixed; inset: 0; background: #00000055; opacity: 0; transition: opacity .3s; pointer-events: none; z-index: 5; }
+  #dim.on { opacity: 1; }
+  #probe { position: fixed; top: 0; left: 0; width: 1px; height: 1px; visibility: hidden; padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom); }
+</style>
+</head>
+<body>
+<div id="top"></div>
+<div id="readings"></div>
+<div class="row" style="top:520px"><button id="dimBtn" aria-label="Dim">Dim</button></div>
+<div class="row" style="top:600px"><button id="useBt" aria-label="Use translucent">Use translucent</button><button id="useDef" aria-label="Use default">Use default</button></div>
+<div id="dim"></div>
+<div id="probe"></div>
+<script>
+function show() {
+  var cs = getComputedStyle(document.getElementById("probe"));
+  var L = [
+    "mode " + SB.mode + (SB.stored ? " (stored)" : ""),
+    "installed as " + SB.installed,
+    "innerHeight " + innerHeight + " / screen " + screen.height,
+    "safe top " + parseFloat(cs.paddingTop) + " bottom " + parseFloat(cs.paddingBottom),
+    "standalone " + (navigator.standalone === true)
+  ];
+  document.getElementById("readings").innerHTML = L.map(function (s) { return "<div>" + s + "</div>"; }).join("");
+}
+show(); setTimeout(show, 500); setTimeout(show, 1500);
+document.getElementById("dimBtn").onclick = function () { document.getElementById("dim").classList.toggle("on"); };
+document.getElementById("useBt").onclick = function () { localStorage.setItem("sb-mode", "black-translucent"); location.reload(); };
+document.getElementById("useDef").onclick = function () { localStorage.setItem("sb-mode", "default"); location.reload(); };
+</script>
+</body>
+</html>
