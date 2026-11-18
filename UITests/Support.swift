@@ -60,7 +60,9 @@ class SimTestCase: XCTestCase {
         let q = (app === web ? app.buttons : app.descendants(matching: .any)).matching(p)
         let end = Date().addingTimeInterval(timeout)
         repeat {
-            let all = q.allElementsBoundByIndex.filter { $0.exists && $0.isHittable }
+            let screen = CGRect(x: 0, y: 0, width: 402, height: 874)
+            // On screen and of real size; isHittable can abort the test on some labels ("activation point invalid").
+            let all = q.allElementsBoundByIndex.filter { $0.exists && $0.frame.width > 4 && $0.frame.height > 4 && screen.contains(CGPoint(x: $0.frame.midX, y: $0.frame.midY)) }
             if let best = all.max(by: { $0.frame.width * $0.frame.height < $1.frame.width * $1.frame.height }) { return best }  // a row beats a small icon with the same label
             usleep(250_000)
         } while Date() < end
