@@ -1,0 +1,31 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=2334FD58-D218-4A49-BC38-4E5FA2526D80 -derivedDataPath dd -resultBundlePath out/probe.xcresult "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-18 21:00:18.356 xcodebuild[8217:29788] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.ProbeTests testProbe]' started.
+PROBE 1795035671.846 screen (402.0, 874.0) url https://preview.ritmoapp.pages.dev/
+PROBE 1795035696.500 kept 01-safari
+PROBE 1795035699.267 dismiss 'Close'
+PROBE 1795035704.804 NOT FOUND 'Share'
+PROBE 1795035706.786 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795035711.815 kept 02-menu-Page Menu
+PROBE 1795035712.380 tap 'Share' at (112.99999999999996, 338.6666666666667, 19.000000000000014, 22.66666666666663)
+PROBE 1795035725.059 kept 03-share-sheet
+PROBE 1795035728.165 NOT FOUND 'Add to Home Screen'
+PROBE 1795035734.173 kept 04-share-sheet-up
+PROBE 1795035735.635 tap 'Add to Home Screen' at (36.0, 619.6666666666667, 32.0, 35.33333333333337)
+PROBE 1795035754.865 kept 05-add-screen
+PROBE 1795035755.455 Add exists true enabled true
+PROBE 1795035756.932 tapped Add
+PROBE 1795035767.105 kept 06-home-screen
+PROBE 1795035770.816 icon exists true hittable true
+PROBE 1795035771.303 tap 'RITMO Dev' at (19.66666666666663, 288.6666666666667, 84.66666666666667, 90.66666666666663)
+PROBE 1795035783.328 kept 07-ritmo-open
+PROBE 1795035783.332 candidate com.apple.webapp state 4
+/Users/runner/work/ritmo-sim/ritmo-sim/UITests/ProbeTests.swift:135: error: -[ProbeUITests.ProbeTests testProbe] : Failed to get matching snapshots: Failed to resolve remote element AX element pid: 10261, elementOrHash.elementID: 14591720167006001709.9999. (Underlying Error: XCTPerformOnMainRunLoop work timed out after 60.0s)
+Test Case '-[ProbeUITests.ProbeTests testProbe]' failed (327.795 seconds).
+Test Suite 'ProbeTests' failed at 2026-11-18 21:06:38.474.
+Test Suite 'ProbeUITests.xctest' failed at 2026-11-18 21:06:38.485.
+Test Suite 'All tests' failed at 2026-11-18 21:06:38.486.
+2026-11-18 21:06:40.228 xcodebuild[8217:29788] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 21:06:40.236 xcodebuild[8217:29788] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 21:06:40.265 xcodebuild[8217:29788] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).

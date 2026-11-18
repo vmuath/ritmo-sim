@@ -1,0 +1,20 @@
+Attributes: Application, 0x10ae62d00, pid: 10361, label: 'Web'
+Element subtree:
+ →Application, 0x10ae62d00, pid: 10361, label: 'Web'
+    Window (Main), 0x1150cdb80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1150cc140, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1150cebc0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x116454500, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x11647ef80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x11647e440, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x11647e080, {{0.0, 0.0}, {804.0, 1748.0}}
+      Other, 0x11647e1c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x11647ee40, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x11647ed00, {{0.0, 0.0}, {402.0, 54.0}}
+Path to element:
+ →Application, 0x10ae62d00, pid: 10361, label: 'Web'
+Query chain:
+ →Find: Application 'com.apple.webapp'
+  Output: {
+    Application, 0x11647f980, pid: 10361, label: 'Web'
+  }
