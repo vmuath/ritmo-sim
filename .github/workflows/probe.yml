@@ -36,7 +36,7 @@ jobs:
         run: |
           RUNTIME=$(xcrun simctl list runtimes -j | python3 -c "
           import json,sys
-          r=[x for x in json.load(sys.stdin)['runtimes'] if x['platform']=='iOS' and x['isAvailable']]
+          r=[x for x in json.load(sys.stdin)['runtimes'] if x['platform']=='iOS' and x['isAvailable'] and 'iPhone' not in x['identifier']]
           r.sort(key=lambda x:[int(p) for p in x['version'].split('.')])
           print(r[-1]['identifier'])")
           TYPE=com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro
