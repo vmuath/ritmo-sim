@@ -93,12 +93,18 @@ class SimTestCase: XCTestCase {
     // MARK: Home Screen apps
 
     /// Safari → Page Menu → Share → Add to Home Screen → Add. `pageTitle` is text in the address bar once loaded.
-    func addToHomeScreen(_ page: URL, pageTitle: String, tag: String) {
+    func addToHomeScreen(_ page: URL, pageText: String, tag: String) {
         safari.launch()
-        XCUIDevice.shared.system.open(page)
-        let loaded = Date().addingTimeInterval(45)
-        while Date() < loaded && safari.descendants(matching: .any).matching(NSPredicate(format: "label CONTAINS[c] %@ OR value CONTAINS[c] %@", pageTitle, pageTitle)).count == 0 { usleep(500_000) }
-        sleep(3)
+        // Load the page and wait for its own text (not the address bar), retrying the address.
+        let want = NSPredicate(format: "label CONTAINS[c] %@", pageText)
+        var loaded = false
+        for attempt in 1...3 where !loaded {
+            XCUIDevice.shared.system.open(page)
+            let until = Date().addingTimeInterval(30)
+            while Date() < until && !loaded { loaded = safari.webViews.staticTexts.matching(want).count > 0; if !loaded { usleep(500_000) } }
+            log("load attempt \(attempt): \(loaded)")
+        }
+        sleep(2)
         keep("\(tag)-safari", tree: safari)
         for t in ["Continue", "Not Now", "Close"] { if let e = element(t, in: safari, timeout: 1) { log("dismiss '\(t)'"); e.tap() } }
         var shared = tap("Share", in: safari, timeout: 4)

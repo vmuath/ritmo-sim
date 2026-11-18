@@ -7,7 +7,7 @@ final class ProbeTests: SimTestCase {
     func testProbe() throws {
         log("screen \(XCUIScreen.main.screenshot().image.size) url \(url)")
 
-        addToHomeScreen(url, pageTitle: "RITMO", tag: "ritmo")
+        addToHomeScreen(url, pageText: "Today", tag: "ritmo")
         guard openIcon("RITMO Dev", tag: "ritmo") else { saveLog(); XCTFail("RITMO Dev icon not found"); return }
         sleep(3)
         let app = web

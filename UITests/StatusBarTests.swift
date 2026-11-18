@@ -27,7 +27,7 @@ final class StatusBarTests: SimTestCase {
 
     func testStatusBar() throws {
         log("screen \(XCUIScreen.main.screenshot().image.size)")
-        addToHomeScreen(URL(string: base)!, pageTitle: "localhost", tag: "def")
+        addToHomeScreen(URL(string: base)!, pageText: "installed as", tag: "def")
         if openIcon("SB default", tag: "def") {
             sleep(2); keep("def-readings"); dimCycle("def", top: 62)
             // switch the installed default app to black-translucent: reload, then a full relaunch
