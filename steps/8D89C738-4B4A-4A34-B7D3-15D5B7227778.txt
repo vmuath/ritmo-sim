@@ -1,0 +1,24 @@
+1795042095.839 screen (402.0, 874.0)
+1795042118.557 kept 01-def-safari
+1795042121.502 dismiss 'Close'
+1795042126.976 NOT FOUND 'Share'
+1795042127.873 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795042131.861 tap 'Share' at (112.99999999999996, 338.6666666666667, 19.000000000000014, 22.66666666666663)
+1795042139.859 NOT FOUND 'Add to Home Screen'
+1795042145.873 NOT FOUND 'Add to Home Screen'
+1795042187.689 kept 02-def-add-screen
+1795042187.769 Add never enabled (def)
+1795042208.388 kept 03-bt-safari
+1795042211.003 dismiss 'Close'
+1795042216.374 NOT FOUND 'Share'
+1795042218.446 NOT FOUND 'Page Menu'
+1795042220.491 NOT FOUND 'More'
+1795042222.600 NOT FOUND 'Tab overview'
+1795042227.632 NOT FOUND 'Add to Home Screen'
+1795042233.021 NOT FOUND 'Add to Home Screen'
+1795042274.029 kept 04-bt-add-screen
+1795042274.065 Add never enabled (bt)
+1795042284.816 icon SB bt exists false hittable false
+1795042286.101 kept 05-bt-no-icon
+1795042293.773 icon SB default exists false hittable false
+1795042295.181 kept 06-def-no-icon

@@ -1,0 +1,35 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=43DCD7F9-3FFD-4532-8CDE-85C2BA585E5C -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/StatusBarTests" "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-18 22:47:31.791 xcodebuild[7094:26791] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' started.
+PROBE 1795042095.839 screen (402.0, 874.0)
+PROBE 1795042118.557 kept 01-def-safari
+PROBE 1795042121.502 dismiss 'Close'
+PROBE 1795042126.976 NOT FOUND 'Share'
+PROBE 1795042127.873 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795042131.861 tap 'Share' at (112.99999999999996, 338.6666666666667, 19.000000000000014, 22.66666666666663)
+PROBE 1795042139.859 NOT FOUND 'Add to Home Screen'
+PROBE 1795042145.873 NOT FOUND 'Add to Home Screen'
+PROBE 1795042187.689 kept 02-def-add-screen
+PROBE 1795042187.769 Add never enabled (def)
+PROBE 1795042208.388 kept 03-bt-safari
+PROBE 1795042211.003 dismiss 'Close'
+PROBE 1795042216.374 NOT FOUND 'Share'
+PROBE 1795042218.446 NOT FOUND 'Page Menu'
+PROBE 1795042220.491 NOT FOUND 'More'
+PROBE 1795042222.600 NOT FOUND 'Tab overview'
+PROBE 1795042227.632 NOT FOUND 'Add to Home Screen'
+PROBE 1795042233.021 NOT FOUND 'Add to Home Screen'
+PROBE 1795042274.029 kept 04-bt-add-screen
+PROBE 1795042274.065 Add never enabled (bt)
+PROBE 1795042284.816 icon SB bt exists false hittable false
+PROBE 1795042286.101 kept 05-bt-no-icon
+PROBE 1795042293.773 icon SB default exists false hittable false
+PROBE 1795042295.181 kept 06-def-no-icon
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' passed (201.445 seconds).
+Test Suite 'StatusBarTests' passed at 2026-11-18 22:51:36.431.
+Test Suite 'ProbeUITests.xctest' passed at 2026-11-18 22:51:36.446.
+Test Suite 'Selected tests' passed at 2026-11-18 22:51:36.447.
+2026-11-18 22:51:36.973 xcodebuild[7094:26791] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 22:51:36.984 xcodebuild[7094:26791] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 22:51:37.020 xcodebuild[7094:26791] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
