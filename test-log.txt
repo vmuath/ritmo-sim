@@ -1,0 +1,24 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=78C7C339-4068-436B-8811-4FB00AF492AE -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/StatusBarTests" "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-18 23:51:02.928 xcodebuild[6631:25964] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' started.
+PROBE 1795045900.218 screen (402.0, 874.0)
+PROBE 1795045920.615 kept 01-def-safari
+PROBE 1795045923.800 dismiss 'Close'
+PROBE 1795045928.958 NOT FOUND 'Share'
+PROBE 1795045929.326 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795045936.575 NOT FOUND 'Share'
+PROBE 1795045938.621 NOT FOUND 'More'
+PROBE 1795045940.926 NOT FOUND 'Tab overview'
+PROBE 1795045945.912 tap 'Add to Home Screen' at (112.66666666666663, 282.66666666666663, 19.333333333333343, 18.0)
+PROBE 1795046003.858 kept 02-def-add-screen
+PROBE 1795046004.250 Add never enabled (def)
+PROBE 1795046016.373 icon SB default exists false hittable false
+PROBE 1795046026.238 kept 03-def-no-icon
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' passed (226.743 seconds).
+Test Suite 'StatusBarTests' passed at 2026-11-18 23:55:26.396.
+Test Suite 'ProbeUITests.xctest' passed at 2026-11-18 23:55:26.401.
+Test Suite 'Selected tests' passed at 2026-11-18 23:55:26.401.
+2026-11-18 23:55:30.847 xcodebuild[6631:25964] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:55:30.854 xcodebuild[6631:25964] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:55:30.930 xcodebuild[6631:25964] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
