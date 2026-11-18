@@ -9,6 +9,9 @@ on:
       url:
         description: Page to test
         default: https://preview.ritmoapp.pages.dev/
+      only:
+        description: Tests to run (xcodebuild -only-testing)
+        default: ProbeUITests/StatusBarTests
   push:
     branches: [main]
 
@@ -25,6 +28,7 @@ jobs:
     timeout-minutes: 45
     env:
       PROBE_URL: ${{ inputs.url || 'https://preview.ritmoapp.pages.dev/' }}
+      ONLY: ${{ inputs.only || 'ProbeUITests/StatusBarTests' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -62,13 +66,15 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p out
+          (cd pages && python3 -m http.server 8000 >/dev/null 2>&1 &)
+          sleep 1; curl -s -o /dev/null -w "test page %{http_code}\n" http://localhost:8000/
           xcrun simctl io "$UDID" recordVideo --codec=h264 --force out/probe.mp4 &
           REC=$!
           python3 -c "import time;print('%.3f'%time.time())" > out/video-start.txt
           sleep 2
           set +e
           xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe \
-            -destination "id=$UDID" -derivedDataPath dd -resultBundlePath out/probe.xcresult \
+            -destination "id=$UDID" -derivedDataPath dd -resultBundlePath out/probe.xcresult -only-testing:"$ONLY" \
             TEST_RUNNER_PROBE_URL="$PROBE_URL" 2>&1 | grep -E "PROBE|error|passed|failed|Test Case" | tee out/test-log.txt
           kill -INT $REC; wait $REC
           echo done
