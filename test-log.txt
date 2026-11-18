@@ -1,0 +1,30 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=6391C413-2DE7-4D5F-9BE5-B942F596C10D -derivedDataPath dd -resultBundlePath out/probe.xcresult "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-18 20:44:38.551 xcodebuild[6917:27525] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.ProbeTests testProbe]' started.
+PROBE 1795034725.903 screen (402.0, 874.0) url https://preview.ritmoapp.pages.dev/
+PROBE 1795034748.739 kept 01-safari
+PROBE 1795034750.255 dismiss 'Not Now'
+PROBE 1795034751.860 dismiss 'Close'
+PROBE 1795034758.627 NOT FOUND 'Share'
+PROBE 1795034759.046 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795034766.007 kept 02-menu-Page Menu
+PROBE 1795034766.818 tap 'Share' at (112.99999999999996, 338.6666666666667, 19.000000000000014, 22.66666666666663)
+PROBE 1795034777.409 kept 03-share-sheet
+PROBE 1795034780.571 NOT FOUND 'Add to Home Screen'
+PROBE 1795034786.099 kept 04-share-sheet-up
+PROBE 1795034787.486 tap 'Add to Home Screen' at (36.0, 619.6666666666667, 32.0, 35.33333333333337)
+PROBE 1795034805.000 kept 05-add-screen
+PROBE 1795034805.471 Add exists true enabled true
+PROBE 1795034806.742 tapped Add
+PROBE 1795034816.129 kept 06-home-screen
+PROBE 1795034824.397 NOT FOUND 'RITMO Dev'
+PROBE 1795034825.911 kept 07-no-icon
+/Users/runner/work/ritmo-sim/ritmo-sim/UITests/ProbeTests.swift:118: error: -[ProbeUITests.ProbeTests testProbe] : failed - RITMO Dev icon not found
+Test Case '-[ProbeUITests.ProbeTests testProbe]' failed (102.316 seconds).
+Test Suite 'ProbeTests' failed at 2026-11-18 20:47:07.178.
+Test Suite 'ProbeUITests.xctest' failed at 2026-11-18 20:47:07.178.
+Test Suite 'All tests' failed at 2026-11-18 20:47:07.179.
+2026-11-18 20:47:07.981 xcodebuild[6917:27525] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 20:47:07.984 xcodebuild[6917:27525] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 20:47:08.031 xcodebuild[6917:27525] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).

@@ -1,0 +1,18 @@
+1795034725.903 screen (402.0, 874.0) url https://preview.ritmoapp.pages.dev/
+1795034748.739 kept 01-safari
+1795034750.255 dismiss 'Not Now'
+1795034751.860 dismiss 'Close'
+1795034758.627 NOT FOUND 'Share'
+1795034759.046 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795034766.007 kept 02-menu-Page Menu
+1795034766.818 tap 'Share' at (112.99999999999996, 338.6666666666667, 19.000000000000014, 22.66666666666663)
+1795034777.409 kept 03-share-sheet
+1795034780.571 NOT FOUND 'Add to Home Screen'
+1795034786.099 kept 04-share-sheet-up
+1795034787.486 tap 'Add to Home Screen' at (36.0, 619.6666666666667, 32.0, 35.33333333333337)
+1795034805.000 kept 05-add-screen
+1795034805.471 Add exists true enabled true
+1795034806.742 tapped Add
+1795034816.129 kept 06-home-screen
+1795034824.397 NOT FOUND 'RITMO Dev'
+1795034825.911 kept 07-no-icon
