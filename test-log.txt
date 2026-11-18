@@ -1,0 +1,25 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=46D8401C-FF88-4D8C-BD42-750DCFEC0094 -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/StatusBarTests" "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-18 23:15:30.744 xcodebuild[16695:50098] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' started.
+PROBE 1795043756.984 screen (402.0, 874.0)
+PROBE 1795043771.095 kept 01-def-safari
+PROBE 1795043772.545 dismiss 'Not Now'
+PROBE 1795043773.608 dismiss 'Close'
+PROBE 1795043778.384 NOT FOUND 'Share'
+PROBE 1795043778.533 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795043784.989 NOT FOUND 'Share'
+PROBE 1795043787.196 NOT FOUND 'More'
+PROBE 1795043789.517 NOT FOUND 'Tab overview'
+PROBE 1795043794.118 tap 'Add to Home Screen' at (112.66666666666663, 282.66666666666663, 19.333333333333343, 18.0)
+PROBE 1795043839.313 kept 02-def-add-screen
+PROBE 1795043839.399 Add never enabled (def)
+PROBE 1795043849.596 icon SB default exists false hittable false
+PROBE 1795043851.027 kept 03-def-no-icon
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' passed (96.611 seconds).
+Test Suite 'StatusBarTests' passed at 2026-11-18 23:17:33.004.
+Test Suite 'ProbeUITests.xctest' passed at 2026-11-18 23:17:33.006.
+Test Suite 'Selected tests' passed at 2026-11-18 23:17:33.006.
+2026-11-18 23:17:33.822 xcodebuild[16695:50098] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:17:33.861 xcodebuild[16695:50098] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:17:33.883 xcodebuild[16695:50098] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).

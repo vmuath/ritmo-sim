@@ -1,0 +1,71 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "46D8401C-FF88-4D8C-BD42-750DCFEC0094",
+        "deviceName" : "probe",
+        "exportedFileName" : "4897961E-4840-42E3-98A5-E912663484D7.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "zz-log_0_2A9882A6-E65E-43A6-8F88-715BDC53A4BE.txt",
+        "timestamp" : 1795043851.027
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "46D8401C-FF88-4D8C-BD42-750DCFEC0094",
+        "deviceName" : "probe",
+        "exportedFileName" : "F9096CB4-EC61-48E7-8627-888E16AA9256.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "03-def-no-icon_0_455B8BB2-BF23-4792-8C34-6F16159D8C36.txt",
+        "timestamp" : 1795043851.025
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "46D8401C-FF88-4D8C-BD42-750DCFEC0094",
+        "deviceName" : "probe",
+        "exportedFileName" : "F9E4665D-AF32-4D61-A37C-891324764C22.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "03-def-no-icon_0_78AAAE38-5EE4-4D59-91F8-C5137C3E8B24.png",
+        "timestamp" : 1795043850.092
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "46D8401C-FF88-4D8C-BD42-750DCFEC0094",
+        "deviceName" : "probe",
+        "exportedFileName" : "0B37A4A0-A6B9-41CA-A4EA-89D0037D727D.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "02-def-add-screen_0_16417560-7D7C-49C0-8FA4-B6749128EAC6.txt",
+        "timestamp" : 1795043839.311
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "46D8401C-FF88-4D8C-BD42-750DCFEC0094",
+        "deviceName" : "probe",
+        "exportedFileName" : "CA3594A5-A4EC-4CCB-A3A4-62C428641328.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "02-def-add-screen_0_954923F0-3795-4F7B-8D78-08F9EC42F605.png",
+        "timestamp" : 1795043838.247
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "46D8401C-FF88-4D8C-BD42-750DCFEC0094",
+        "deviceName" : "probe",
+        "exportedFileName" : "86FC6937-77FE-454A-8C99-39E4ABB5BE44.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "01-def-safari_0_F94C6681-9A29-4F6A-919F-FD1CC6D70385.txt",
+        "timestamp" : 1795043771.094
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "46D8401C-FF88-4D8C-BD42-750DCFEC0094",
+        "deviceName" : "probe",
+        "exportedFileName" : "60E33EA2-4FC6-4DA7-B1BF-5A8A1885E416.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "01-def-safari_0_11F939D4-F211-4988-A342-A1AC0A86D20E.png",
+        "timestamp" : 1795043770.333
+      }
+    ],
+    "testIdentifier" : "StatusBarTests/testStatusBar()",
+    "testIdentifierURL" : "test://com.apple.xcode/Probe/ProbeUITests/StatusBarTests/testStatusBar"
+  }
+]
