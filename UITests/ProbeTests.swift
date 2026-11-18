@@ -101,12 +101,12 @@ final class ProbeTests: XCTestCase {
             added = tap("Add to Home Screen", in: safari, timeout: 3)
         }
         // The Add screen loads the name and icon first; Add stays disabled until then.
-        let add = safari.navigationBars.buttons["Add"].exists ? safari.navigationBars.buttons["Add"] : safari.buttons["Add"]
+        let addButton = safari.navigationBars.buttons["Add"].exists ? safari.navigationBars.buttons["Add"] : safari.buttons["Add"]
         let ready = Date().addingTimeInterval(40)
-        while Date() < ready && !(add.exists && add.isEnabled) { usleep(500_000) }
+        while Date() < ready && !(addButton.exists && addButton.isEnabled) { usleep(500_000) }
         keep("add-screen", tree: safari)
-        log("Add exists \(add.exists) enabled \(add.isEnabled)")
-        if add.exists && add.isEnabled { add.tap(); log("tapped Add") } else { log("Add never enabled") }
+        log("Add exists \(addButton.exists) enabled \(addButton.isEnabled)")
+        if addButton.exists && addButton.isEnabled { addButton.tap(); log("tapped Add") } else { log("Add never enabled") }
         sleep(4)
 
         // 3. Home Screen → RITMO Dev.
