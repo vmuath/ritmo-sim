@@ -1,0 +1,314 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "016789EC-6B6B-45F7-B4D4-DE5C47AFE7F9.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "10-def-switched-relaunch_0_C3B5787C-6FF8-430A-B6AA-EF773F2D1DBF.png",
+        "timestamp" : 1795044483.728
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "753ED239-66B6-46EE-968D-E913253948FB.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "09-def-relaunch-open_0_74F3F62E-680C-47ED-8AB9-2083ADAF9F47.png",
+        "timestamp" : 1795044481.216
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "D88579FE-4777-4B00-874F-B360685E0684",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.27.39 PM",
+        "timestamp" : 1795044459.322
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "89F70AA3-34C3-4CED-994A-5A924F660985",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.27.40 PM",
+        "timestamp" : 1795044460.924
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "32FE6341-8F43-4EDF-9B9E-C05D0216DF9D",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.27.23 PM",
+        "timestamp" : 1795044443.795
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "86792E1C-8F21-45C4-A28F-9381C61A6891",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.27.24 PM",
+        "timestamp" : 1795044444.226
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "93698F53-5207-4725-A0C7-17319CCE4243.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "08-def-switched-reload_0_660CFF90-8802-498E-AA8E-F8CC132D5D42.png",
+        "timestamp" : 1795044437.684
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "70677D6E-7217-4B2B-B43C-C6131986B41B",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.27.13 PM",
+        "timestamp" : 1795044433.496
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "8DADD553-0400-4C80-BA2D-8556855C89C5.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "07-def-dim-off_0_1119C913-39B6-4B03-9D3B-5E0A84887829.png",
+        "timestamp" : 1795044433.001
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "BEDD0560-98EE-4B98-8218-680E28F22EB9",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.27.10 PM",
+        "timestamp" : 1795044430.868
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "707A1897-F3AB-4AC7-9FF8-74FB0DDC66E5.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "06-def-dim-on_0_E918AD6A-28AE-4685-B0C2-C8B84D24127A.png",
+        "timestamp" : 1795044430.388
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "03DED0CE-3172-4E87-ACA7-6E7C234448C0.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "05-def-dim-mid_0_214C87D4-EAEF-48D4-8B77-0E949DB8FFDD.png",
+        "timestamp" : 1795044428.267
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "7E7AC34B-79A7-4D83-A146-56440B478C93",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.27.07 PM",
+        "timestamp" : 1795044427.967
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "24BD0A9F-86D5-45A5-B224-9A5FB6B2323A.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "04-def-readings_0_9226A9B4-EF09-4A61-87E4-7E551BF87DCB.png",
+        "timestamp" : 1795044427.21
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "7EF81470-0E46-40DE-B745-7F7DA61D936F.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "03-def-open_0_4FFC6D35-479F-41F8-AD49-1F1AB0CA7614.png",
+        "timestamp" : 1795044425.085
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "A4E67A54-12AB-4C20-AC28-6E7A5DE87410",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.26.22 PM",
+        "timestamp" : 1795044382.736
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "6454588F-4BD3-4A3F-80A2-FDA1C2E46F00",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.26.23 PM",
+        "timestamp" : 1795044383.228
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "0E0468E5-6089-4CD5-A411-1F33A5EA86D2",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.26.19 PM",
+        "timestamp" : 1795044379.618
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "427456BE-3F6C-46FA-B5CC-2BB97C58305D",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.26.20 PM",
+        "timestamp" : 1795044380.045
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "F23BA13B-8D27-42B6-A093-96DD47C73D03",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.26.11 PM",
+        "timestamp" : 1795044371.035
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "56B4DD0E-D448-4F3B-863D-FB5EC747BD21",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.26.11 PM",
+        "timestamp" : 1795044371.579
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "53C5BE1B-DA75-4C68-8D23-A2DCF14BC7DC.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "02-def-add-screen_0_40177A20-CC58-4A50-B8D2-5449062BFFD0.txt",
+        "timestamp" : 1795044370.531
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "F0075F03-F96E-456C-97D0-D6BA5C6B9C57.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "02-def-add-screen_0_1B1C4A15-49AB-4F25-97CC-A87702D30E3C.png",
+        "timestamp" : 1795044369.147
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "80372CDD-6797-459C-BCD7-439AAC6A7C12",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.26.00 PM",
+        "timestamp" : 1795044360.304
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "A3F6BBD1-FFE4-47E1-8E99-5B455DCDE7E8",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.26.00 PM",
+        "timestamp" : 1795044360.844
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "49CCE73E-2B07-479F-90B2-A5E735FDC464",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.25.56 PM",
+        "timestamp" : 1795044356.865
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "25E8C27A-75F5-4334-AB7F-DE96E255D929",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.25.57 PM",
+        "timestamp" : 1795044357.232
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "3431FB35-D8F4-4398-8552-C21B254891D4",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.25.50 PM",
+        "timestamp" : 1795044350.174
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "0AA6E06D-B5EA-420E-A9E3-B712EDC27744",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.25.50 PM",
+        "timestamp" : 1795044350.486
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "C56E5073-6562-46DD-9CD8-3F2067629899",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.25.46 PM",
+        "timestamp" : 1795044346.447
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "71D4EDCC-ED70-49E8-B4B2-FCFCB050C978",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.25.46 PM",
+        "timestamp" : 1795044346.902
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "6B3B3659-07D4-446D-A67D-59879736D04C.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "01-def-safari_0_1F7A0D14-7130-47D8-8336-E00944CD49F8.txt",
+        "timestamp" : 1795044337.059
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "914CA03C-3FC6-47CB-A8F0-4C77FB9BF4F1.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "01-def-safari_0_88E4F90E-C7A6-485A-8AA8-8FE533907AB5.png",
+        "timestamp" : 1795044334.563
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D40D0B45-9770-48FC-B1E1-91C69C8460E7",
+        "deviceName" : "probe",
+        "exportedFileName" : "2883425D-5959-486B-BCA2-874CDF216F61.mp4",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Screen Recording 2026-11-18 at 11.25.17 PM.mp4",
+        "timestamp" : 1795044317.438
+      }
+    ],
+    "testIdentifier" : "StatusBarTests/testStatusBar()",
+    "testIdentifierURL" : "test://com.apple.xcode/Probe/ProbeUITests/StatusBarTests/testStatusBar"
+  }
+]

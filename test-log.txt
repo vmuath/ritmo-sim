@@ -1,0 +1,36 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=D40D0B45-9770-48FC-B1E1-91C69C8460E7 -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/StatusBarTests" "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-18 23:24:41.277 xcodebuild[5325:21433] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' started.
+PROBE 1795044318.203 screen (402.0, 874.0)
+PROBE 1795044337.060 kept 01-def-safari
+PROBE 1795044345.580 NOT FOUND 'Share'
+PROBE 1795044346.335 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795044350.073 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+PROBE 1795044356.178 expand share sheet
+PROBE 1795044360.110 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+PROBE 1795044370.532 kept 02-def-add-screen
+PROBE 1795044372.278 tapped Add (def)
+PROBE 1795044382.341 icon SB default exists true hittable true
+PROBE 1795044422.956 SB default first paint true after 39.3s
+PROBE 1795044425.086 kept 03-def-open
+PROBE 1795044427.211 kept 04-def-readings
+PROBE 1795044427.571 tap 'Dim' at (20.0, 582.0, 362.0, 51.0)
+PROBE 1795044428.268 kept 05-def-dim-mid
+PROBE 1795044430.388 kept 06-def-dim-on
+PROBE 1795044430.510 tap 'Dim' at (20.0, 582.0, 362.0, 51.0)
+PROBE 1795044433.002 kept 07-def-dim-off
+PROBE 1795044433.117 tap 'Use translucent' at (20.0, 662.0, 175.0, 51.0)
+PROBE 1795044437.685 kept 08-def-switched-reload
+PROBE 1795044453.827 icon SB default exists true hittable true
+PROBE 1795044478.653 SB default first paint true after 17.3s
+PROBE 1795044481.231 kept 09-def-relaunch-open
+PROBE 1795044483.728 kept 10-def-switched-relaunch
+/Users/runner/work/ritmo-sim/ritmo-sim/UITests/Support.swift:63: error: -[ProbeUITests.StatusBarTests testStatusBar] : Failed to resolve query: Application com.apple.webapp is not running
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' failed (210.409 seconds).
+Test Suite 'StatusBarTests' failed at 2026-11-18 23:28:47.696.
+Test Suite 'ProbeUITests.xctest' failed at 2026-11-18 23:28:47.715.
+Test Suite 'Selected tests' failed at 2026-11-18 23:28:47.715.
+2026-11-18 23:28:52.226 xcodebuild[5325:21433] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:28:52.259 xcodebuild[5325:21433] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:28:52.333 xcodebuild[5325:21433] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).

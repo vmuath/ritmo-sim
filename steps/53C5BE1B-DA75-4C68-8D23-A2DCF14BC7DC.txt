@@ -1,0 +1,411 @@
+Attributes: Application, 0x1103208c0, pid: 6314, label: 'Safari'
+Element subtree:
+ →Application, 0x1103208c0, pid: 6314, label: 'Safari'
+    Window (Main), 0x110320a00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x110320b40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x110320c80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x110320dc0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x110320f00, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SafariWindow?View=Narrow&BarsKeptMinimized=false&UUID=C6EFDE67-1858-4352-9260-BD92071305DC&UsingLoweredBar=true&IsSecure=false&IsTabBarAvailable=false'
+            Other, 0x110321040, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x110321180, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1103212c0, {{0.0, 0.0}, {402.0, 49.0}}
+                  Other, 0x110321400, {{0.0, 0.0}, {402.0, 49.0}}
+                  Other, 0x110321540, {{0.0, 0.0}, {402.0, 49.0}}
+                Other, 0x110321680, {{0.0, 0.0}, {402.0, 62.0}}
+                ScrollView, 0x1103217c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x110321900, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x110321a40, {{0.0, 0.0}, {402.0, 102.0}}
+                  Other, 0x110321b80, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x110321cc0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'TabDocument?IsLoadedUsingDesktopUserAgent=false&InReaderMode=false&UUID=7CAEBF50-BD56-4774-8B4A-BEDEDD6AD54D&IsPrivate=false&IsPageLoaded=true&WebViewProcessID=6328'
+                    WebView, 0x110321e00, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'WebView'
+                      WebView, 0x110321f40, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x110322080, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x1103221c0, {{0.0, 0.0}, {402.0, 89.0}}
+                          Other, 0x110322300, {{0.0, 736.0}, {402.0, 138.0}}
+                        WebView, 0x110322440, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x110322580, {{0.0, 0.0}, {402.0, 874.0}}
+                            Other, 0x1103226c0, {{0.0, 0.0}, {402.0, 874.0}}
+                              Other, 0x110322800, {{0.0, 62.0}, {402.0, 874.0}}
+                                Other, 0x110322940, {{0.0, 62.0}, {402.0, 754.0}}, label: 'SB default', Focused
+                                  Other, 0x110322a80, {{20.0, 292.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x110322bc0, {{20.0, 293.0}, {122.0, 25.0}}, label: 'mode default', value: mode default, Focused
+                                  Other, 0x110322d00, {{20.0, 325.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x110322e40, {{20.0, 326.0}, {173.0, 25.0}}, label: 'installed as default', value: installed as default, Focused
+                                  Other, 0x110322f80, {{20.0, 358.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x1103230c0, {{20.0, 359.0}, {264.0, 25.0}}, label: 'innerHeight 714 / screen 874', value: innerHeight 714 / ..., Focused
+                                  Other, 0x110323200, {{20.0, 391.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x110323340, {{20.0, 392.0}, {181.0, 25.0}}, label: 'safe top 0 bottom 0', value: safe top 0 bottom 0, Focused
+                                  Other, 0x110323480, {{20.0, 424.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x1103235c0, {{20.0, 425.0}, {151.0, 25.0}}, label: 'standalone false', value: standalone false, Focused
+                                  Button, 0x110323700, {{20.0, 582.0}, {362.0, 51.0}}, label: 'Dim', Focused
+                                  Button, 0x110323840, {{20.0, 742.0}, {362.0, 51.0}}, label: 'Dark top', Focused
+                                  Button, 0x110323980, {{20.0, 662.0}, {175.0, 51.0}}, label: 'Use translucent', Focused
+                                  Button, 0x110323ac0, {{207.0, 662.0}, {175.0, 51.0}}, label: 'Use default', Focused
+                        Other, 0x110323c00, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x110323d40, {{0.0, 0.0}, {402.0, 89.0}}
+                          Other, 0x110323e80, {{0.0, 736.0}, {402.0, 138.0}}
+                        Other, 0x1102fde00, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                          Other, 0x1102ff340, {{396.0, 65.0}, {3.0, 711.3}}
+                        Other, 0x1102ffe80, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                          Other, 0x1102ff480, {{65.0, 868.0}, {272.0, 3.0}}
+                        Other, 0x1102a61c0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                          Other, 0x1102ae1c0, {{396.0, 65.0}, {3.0, 711.3}}
+                        Other, 0x110324000, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                          Other, 0x110324140, {{65.0, 868.0}, {272.0, 3.0}}
+                  Other, 0x110324280, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x1103243c0, {{334.3, 868.0}, {7.0, 3.0}}
+                  Other, 0x110324500, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x110324640, {{334.3, 868.0}, {7.0, 3.0}}
+            Other, 0x110324780, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'CapsuleViewController'
+              Other, 0x1103248c0, {{0.0, 776.0}, {402.0, 98.0}}
+                Other, 0x110324a00, {{0.0, 776.0}, {402.0, 98.0}}
+                  Other, 0x110324b40, {{0.0, 776.0}, {402.0, 98.0}}
+                    Other, 0x110324c80, {{0.0, 776.0}, {402.0, 98.0}}
+                      Other, 0x110324dc0, {{0.0, 776.0}, {402.0, 98.0}}
+                        Other, 0x110324f00, {{0.0, 776.0}, {402.0, 98.0}}
+                          Other, 0x110325040, {{0.0, 776.0}, {402.0, 98.0}}
+                Other, 0x110325180, {{34.0, 792.0}, {48.0, 48.0}}
+                  Other, 0x1103252c0, {{34.0, 792.0}, {48.0, 48.0}}
+                    Button, 0x110325400, {{34.0, 792.0}, {48.0, 48.0}}, identifier: 'BackButton', label: 'Back', Disabled
+                Other, 0x110325540, {{90.0, 792.0}, {222.0, 48.0}}
+                  Other, 0x110325680, {{90.0, 792.0}, {222.0, 48.0}}
+                    Other, 0x1103257c0, {{90.0, 792.0}, {222.0, 48.0}}
+                      Other, 0x110325900, {{90.0, 792.0}, {222.0, 48.0}}, identifier: 'CapsuleNavigationBar?isSelected=true&isDistractionControlOverlayUp=false', Selected
+                        Button, 0x110325a40, {{90.0, 792.0}, {48.0, 48.0}}, identifier: 'MoreMenuButton', label: 'Page Menu'
+                          StaticText, 0x110325b80, {{90.0, 792.0}, {0.0, 0.0}}
+                        TextField, 0x110325cc0, {{165.7, 806.0}, {71.0, 20.3}}, identifier: 'TabBarItemTitle', label: 'Address', value: ‎localhost
+                        Button, 0x110325e00, {{281.3, 805.3}, {17.7, 21.7}}, identifier: 'ReloadButton', label: 'refresh'
+                Other, 0x110325f40, {{320.0, 792.0}, {48.0, 48.0}}
+                  Other, 0x110326080, {{320.0, 792.0}, {48.0, 48.0}}
+                    Button, 0x1103261c0, {{320.0, 792.0}, {48.0, 48.0}}, identifier: 'TabOverviewButton', label: 'Tabs'
+      Other, 0x110326300, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x110326440, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'PopoverDismissRegion', label: 'dismiss popup'
+        Popover, 0x110326580, {{0.0, 63.0}, {402.0, 811.0}}
+          Other, 0x1103266c0, {{0.0, 63.0}, {402.0, 811.0}}
+            Other, 0x110326800, {{0.0, 63.0}, {402.0, 811.0}}
+              Other, 0x110326940, {{0.0, 63.0}, {402.0, 811.0}}
+                Other, 0x110326a80, {{0.0, 63.0}, {402.0, 811.0}}
+                  Other, 0x110326bc0, {{0.0, 63.0}, {402.0, 811.0}}
+                    Other, 0x110326d00, {{0.0, 63.0}, {0.0, 0.0}}
+                      Other, 0x110326e40, {{0.0, 63.0}, {402.0, 811.0}}
+                        Other, 0x110326f80, {{0.0, 63.0}, {402.0, 811.0}}
+                          Other, 0x1103270c0, {{0.0, 63.0}, {402.0, 811.0}}
+                            Other, 0x110327200, {{0.0, 63.0}, {402.0, 811.0}}
+                              Other, 0x110327340, {{0.0, 63.0}, {402.0, 811.0}}, identifier: 'ActivityListView'
+                                Other, 0x110327480, {{0.0, 63.0}, {402.0, 811.0}}
+                                Other, 0x1103275c0, {{0.0, 63.0}, {402.0, 811.0}}, identifier: 'ShareSheet.RemoteContainerView'
+                                  Other, 0x110327700, {{0.0, 63.0}, {402.0, 811.0}}
+                                    Other, 0x110327840, {{0.0, 63.0}, {402.0, 811.0}}
+                                      Other, 0x110327980, {{0.0, 63.0}, {402.0, 811.0}}
+                                        Other, 0x110327ac0, {{0.0, 63.0}, {402.0, 811.0}}
+                                          Other, 0x110327c00, {{0.0, 63.0}, {402.0, 811.0}}
+                                            Other, 0x110327d40, {{0.0, 63.0}, {402.0, 811.0}}
+                                              Other, 0x110327e80, {{0.0, 63.0}, {402.0, 811.0}}
+                                                NavigationBar, 0x110330000, {{0.0, 73.0}, {402.0, 122.3}}, identifier: 'SB default'
+                                                  Image, 0x110330140, {{31.3, 94.3}, {64.0, 64.0}}, identifier: 'safari', label: 'safari'
+                                                  Other, 0x110330280, {{110.3, 94.3}, {216.7, 18.0}}, identifier: 'LP.CaptionBar.TopCaption', label: 'SB default'
+                                                  Button, 0x1103303c0, {{346.0, 77.0}, {36.0, 36.0}}, identifier: 'header.closeButton', label: 'Close'
+                                                  Other, 0x110330500, {{110.3, 112.3}, {216.7, 20.0}}, identifier: 'LP.CaptionBar.BottomCaption', label: 'localhost'
+                                                  Button, 0x110330640, {{110.3, 143.3}, {91.7, 36.0}}, label: 'Options '
+                                                    StaticText, 0x110330780, {{122.3, 151.0}, {67.7, 20.3}}, label: 'Options '
+                                                Other, 0x1103308c0, {{0.0, 63.0}, {402.0, 811.0}}
+                                                  Other, 0x110330a00, {{0.0, 63.0}, {402.0, 811.0}}
+                                                    Other, 0x110330b40, {{0.0, 63.0}, {402.0, 811.0}}, identifier: 'shareSheet.activity.contentView'
+                                                      CollectionView, 0x110330c80, {{0.0, 63.0}, {402.0, 811.0}}, identifier: 'activityCollectionView'
+                                                        Other, 0x110330dc0, {{0.0, -0.0}, {402.0, 811.0}}
+                                                          Other, 0x110330f00, {{0.0, 63.0}, {402.0, 172.3}}
+                                                        Other, 0x110331040, {{0.0, -0.0}, {402.0, 811.0}}
+                                                        ScrollView, 0x110331180, {{23.3, 195.3}, {355.3, 120.3}}
+                                                          Cell, 0x1103312c0, {{23.3, 195.3}, {82.0, 120.3}}, identifier: 'shareCell', label: 'News'
+                                                            Other, 0x110331400, {{23.3, 195.3}, {82.0, 120.3}}
+                                                              Other, 0x110331540, {{23.3, 285.3}, {82.0, 14.3}}
+                                                                StaticText, 0x110331680, {{23.3, 285.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'News'
+                                                                StaticText, 0x1103317c0, {{23.3, 285.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                                Other, 0x110331900, {{23.3, 285.3}, {82.0, 14.3}}
+                                                              Image, 0x110331a40, {{31.3, 211.3}, {66.0, 66.0}}, identifier: 'activityImageView'
+                                                          Cell, 0x110331b80, {{114.7, 195.3}, {82.0, 120.3}}, identifier: 'shareCell', label: 'Reminders'
+                                                            Other, 0x110331cc0, {{114.7, 195.3}, {82.0, 120.3}}
+                                                              Other, 0x110331e00, {{114.7, 285.3}, {82.0, 14.3}}
+                                                                StaticText, 0x110331f40, {{114.7, 285.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Reminders'
+                                                                StaticText, 0x110332080, {{114.7, 285.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                                Other, 0x1103321c0, {{114.7, 285.3}, {82.0, 14.3}}
+                                                              Image, 0x110332300, {{122.7, 211.3}, {66.0, 66.0}}, identifier: 'activityImageView'
+                                                          Cell, 0x110332440, {{206.0, 195.3}, {82.0, 120.3}}, identifier: 'shareCell', label: 'Safari'
+                                                            Other, 0x110332580, {{206.0, 195.3}, {82.0, 120.3}}
+                                                              Other, 0x1103326c0, {{206.0, 285.3}, {82.0, 14.3}}
+                                                                StaticText, 0x110332800, {{206.0, 285.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Safari'
+                                                                StaticText, 0x110332940, {{206.0, 285.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                                Other, 0x110332a80, {{206.0, 285.3}, {82.0, 14.3}}
+                                                              Image, 0x110332bc0, {{214.0, 211.3}, {66.0, 66.0}}, identifier: 'activityImageView'
+                                                          Cell, 0x110332d00, {{297.3, 195.3}, {82.0, 120.3}}, identifier: 'shareCell', label: 'More'
+                                                            Other, 0x110332e40, {{297.3, 195.3}, {82.0, 120.3}}
+                                                              Other, 0x110332f80, {{297.3, 285.3}, {82.0, 14.3}}
+                                                                StaticText, 0x1103330c0, {{297.3, 285.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'More'
+                                                                StaticText, 0x110333200, {{297.3, 285.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                                Other, 0x110333340, {{297.3, 285.3}, {82.0, 14.3}}
+                                                              Image, 0x110333480, {{305.3, 211.3}, {66.0, 66.0}}, identifier: 'activityImageView'
+                                                        Cell, 0x1103335c0, {{23.3, 316.7}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'Copy'
+                                                          Other, 0x110333700, {{23.3, 316.7}, {82.0, 134.3}}
+                                                            Other, 0x110333840, {{31.3, 332.7}, {66.0, 66.0}}
+                                                            Image, 0x110333980, {{48.3, 346.7}, {32.0, 38.0}}, identifier: 'activityImageView', label: 'copy'
+                                                            Other, 0x110333ac0, {{23.3, 404.7}, {82.0, 14.3}}
+                                                              StaticText, 0x110333c00, {{23.3, 404.7}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Copy'
+                                                              StaticText, 0x110333d40, {{23.3, 404.7}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                              Other, 0x110333e80, {{23.3, 404.7}, {82.0, 14.3}}
+                                                        Other, 0x110338000, {{31.3, 315.7}, {339.3, 1.0}}, identifier: 'collectionView.footerView'
+                                                        Cell, 0x110338140, {{114.7, 316.7}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'Add to Bookmarks'
+                                                          Other, 0x110338280, {{114.7, 316.7}, {82.0, 134.3}}
+                                                            Other, 0x1103383c0, {{122.7, 332.7}, {66.0, 66.0}}
+                                                            Image, 0x110338500, {{139.7, 349.0}, {32.0, 33.3}}, identifier: 'activityImageView', label: 'bookmark'
+                                                            Other, 0x110338640, {{114.7, 404.7}, {82.0, 30.3}}
+                                                              StaticText, 0x110338780, {{114.7, 404.7}, {82.0, 30.3}}, identifier: 'cellTitleLabel', label: 'Add to Bookmarks'
+                                                              StaticText, 0x1103388c0, {{114.7, 404.7}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                              Other, 0x110338a00, {{114.7, 404.7}, {82.0, 30.3}}
+                                                        Cell, 0x110338b40, {{206.0, 316.7}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'Add to Reading List'
+                                                          Other, 0x110338c80, {{206.0, 316.7}, {82.0, 134.3}}
+                                                            Other, 0x110338dc0, {{214.0, 332.7}, {66.0, 66.0}}
+                                                            Image, 0x110338f00, {{231.0, 354.3}, {32.0, 22.3}}, identifier: 'activityImageView', label: 'reading list'
+                                                            Other, 0x110339040, {{206.0, 404.7}, {82.0, 30.3}}
+                                                              StaticText, 0x110339180, {{206.0, 404.7}, {82.0, 30.3}}, identifier: 'cellTitleLabel', label: 'Add to Reading List'
+                                                              StaticText, 0x1103392c0, {{206.0, 404.7}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                              Other, 0x110339400, {{206.0, 404.7}, {82.0, 30.3}}
+                                                        Cell, 0x110339540, {{297.3, 316.7}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'View Less'
+                                                          Other, 0x110339680, {{297.3, 316.7}, {82.0, 134.3}}
+                                                            Other, 0x1103397c0, {{305.3, 332.7}, {66.0, 66.0}}
+                                                            Image, 0x110339900, {{322.3, 355.7}, {32.0, 19.0}}, identifier: 'activityImageView', label: 'go up'
+                                                            Other, 0x110339a40, {{297.3, 404.7}, {82.0, 14.3}}
+                                                              StaticText, 0x110339b80, {{297.3, 404.7}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'View Less'
+                                                              StaticText, 0x110339cc0, {{297.3, 404.7}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                              Other, 0x110339e00, {{297.3, 404.7}, {82.0, 14.3}}
+                                                        Cell, 0x110339f40, {{16.0, 461.0}, {370.0, 50.3}}, identifier: 'actionGroupCell', label: 'Add Bookmark to…'
+                                                          Other, 0x11033a080, {{16.0, 461.0}, {370.0, 50.3}}
+                                                            Other, 0x11033a1c0, {{16.0, 461.0}, {370.0, 50.3}}
+                                                          Other, 0x11033a300, {{16.0, 461.0}, {370.0, 50.3}}
+                                                            Other, 0x11033a440, {{16.0, 461.0}, {370.0, 50.3}}
+                                                            Other, 0x11033a580, {{36.0, 470.3}, {32.0, 32.0}}, identifier: 'imageStackView'
+                                                              Image, 0x11033a6c0, {{36.0, 468.7}, {32.0, 35.3}}, identifier: 'activityImageView', label: 'bookmark'
+                                                            Other, 0x11033a800, {{36.0, 470.3}, {32.0, 32.0}}
+                                                            Other, 0x11033a940, {{76.0, 476.0}, {290.0, 20.3}}, identifier: 'titleStackView'
+                                                              StaticText, 0x11033aa80, {{76.0, 476.0}, {290.0, 20.3}}, identifier: 'titleLabel', label: 'Add Bookmark to…'
+                                                            Other, 0x11033abc0, {{76.0, 476.0}, {290.0, 20.3}}
+                                                        Cell, 0x11033ad00, {{16.0, 511.3}, {370.0, 50.3}}, identifier: 'actionGroupCell', label: 'Add to Favorites'
+                                                          Other, 0x11033ae40, {{16.0, 511.3}, {370.0, 50.3}}
+                                                            Other, 0x11033af80, {{16.0, 511.3}, {370.0, 50.3}}
+                                                          Other, 0x11033b0c0, {{16.0, 511.3}, {370.0, 50.3}}
+                                                            Other, 0x11033b200, {{16.0, 511.3}, {370.0, 50.3}}
+                                                            Other, 0x11033b340, {{36.0, 520.7}, {32.0, 32.0}}, identifier: 'imageStackView'
+                                                              Image, 0x11033b480, {{36.0, 516.7}, {32.0, 38.3}}, identifier: 'activityImageView', label: 'favorite'
+                                                            Other, 0x11033b5c0, {{36.0, 520.7}, {32.0, 32.0}}
+                                                            Other, 0x11033b700, {{76.0, 526.3}, {290.0, 20.3}}, identifier: 'titleStackView'
+                                                              StaticText, 0x11033b840, {{76.0, 526.3}, {290.0, 20.3}}, identifier: 'titleLabel', label: 'Add to Favorites'
+                                                            Other, 0x11033b980, {{76.0, 526.3}, {290.0, 20.3}}
+                                                        Other, 0x11033bac0, {{76.0, 510.3}, {290.0, 1.0}}
+                                                        Cell, 0x11033bc00, {{16.0, 561.7}, {370.0, 50.3}}, identifier: 'actionGroupCell', label: 'Find on Page'
+                                                          Other, 0x11033bd40, {{16.0, 561.7}, {370.0, 50.3}}
+                                                            Other, 0x11033be80, {{16.0, 561.7}, {370.0, 50.3}}
+                                                          Other, 0x110344000, {{16.0, 561.7}, {370.0, 50.3}}
+                                                            Other, 0x110344140, {{16.0, 561.7}, {370.0, 50.3}}
+                                                            Other, 0x110344280, {{36.0, 571.0}, {32.0, 32.0}}, identifier: 'imageStackView'
+                                                              Image, 0x1103443c0, {{36.0, 567.3}, {32.3, 42.0}}, identifier: 'activityImageView', label: 'search document'
+                                                            Other, 0x110344500, {{76.0, 576.7}, {290.0, 20.3}}, identifier: 'titleStackView'
+                                                              StaticText, 0x110344640, {{76.0, 576.7}, {290.0, 20.3}}, identifier: 'titleLabel', label: 'Find on Page'
+                                                            Other, 0x110344780, {{76.0, 576.7}, {290.0, 20.3}}
+                                                        Other, 0x1103448c0, {{76.0, 560.7}, {290.0, 1.0}}
+                                                        Cell, 0x110344a00, {{16.0, 612.0}, {370.0, 50.3}}, identifier: 'actionGroupCell', label: 'Add to Home Screen'
+                                                          Other, 0x110344b40, {{16.0, 612.0}, {370.0, 50.3}}
+                                                            Other, 0x110344c80, {{16.0, 612.0}, {370.0, 50.3}}
+                                                          Other, 0x110344dc0, {{16.0, 612.0}, {370.0, 50.3}}
+                                                            Other, 0x110344f00, {{16.0, 612.0}, {370.0, 50.3}}
+                                                            Other, 0x110345040, {{36.0, 621.3}, {32.0, 32.0}}, identifier: 'imageStackView'
+                                                              Image, 0x110345180, {{36.0, 619.7}, {32.0, 35.3}}, identifier: 'activityImageView', label: 'Add to home screen'
+                                                            Other, 0x1103452c0, {{76.0, 627.0}, {290.0, 20.3}}, identifier: 'titleStackView'
+                                                              StaticText, 0x110345400, {{76.0, 627.0}, {290.0, 20.3}}, identifier: 'titleLabel', label: 'Add to Home Screen'
+                                                            Other, 0x110345540, {{76.0, 627.0}, {290.0, 20.3}}
+                                                        Other, 0x110345680, {{76.0, 611.0}, {290.0, 1.0}}
+                                                        Cell, 0x1103457c0, {{16.0, 682.3}, {370.0, 50.3}}, identifier: 'actionGroupCell', label: 'Markup'
+                                                          Other, 0x110345900, {{16.0, 682.3}, {370.0, 50.3}}
+                                                            Other, 0x110345a40, {{16.0, 682.3}, {370.0, 50.3}}
+                                                          Other, 0x110345b80, {{16.0, 682.3}, {370.0, 50.3}}
+                                                            Other, 0x110345cc0, {{16.0, 682.3}, {370.0, 50.3}}
+                                                            Other, 0x110345e00, {{36.0, 691.7}, {32.0, 32.0}}, identifier: 'imageStackView'
+                                                              Image, 0x110345f40, {{36.0, 689.0}, {32.0, 37.3}}, identifier: 'activityImageView', label: 'Markup'
+                                                            Other, 0x110346080, {{76.0, 697.3}, {290.0, 20.3}}, identifier: 'titleStackView'
+                                                              StaticText, 0x1103461c0, {{76.0, 697.3}, {290.0, 20.3}}, identifier: 'titleLabel', label: 'Markup'
+                                                            Other, 0x110346300, {{76.0, 697.3}, {290.0, 20.3}}
+                                                        Cell, 0x110346440, {{16.0, 732.7}, {370.0, 50.3}}, identifier: 'actionGroupCell', label: 'Print'
+                                                          Other, 0x110346580, {{16.0, 732.7}, {370.0, 50.3}}
+                                                            Other, 0x1103466c0, {{16.0, 732.7}, {370.0, 50.3}}
+                                                          Other, 0x110346800, {{16.0, 732.7}, {370.0, 50.3}}
+                                                            Other, 0x110346940, {{16.0, 732.7}, {370.0, 50.3}}
+                                                            Other, 0x110346a80, {{36.0, 742.0}, {32.0, 32.0}}, identifier: 'imageStackView'
+                                                              Image, 0x110346bc0, {{36.0, 739.0}, {32.0, 38.7}}, identifier: 'activityImageView', label: 'print'
+                                                            Other, 0x110346d00, {{76.0, 747.7}, {290.0, 20.3}}, identifier: 'titleStackView'
+                                                              StaticText, 0x110346e40, {{76.0, 747.7}, {290.0, 20.3}}, identifier: 'titleLabel', label: 'Print'
+                                                            Other, 0x110346f80, {{76.0, 747.7}, {290.0, 20.3}}
+                                                        Other, 0x1103470c0, {{76.0, 731.7}, {290.0, 1.0}}
+                                                        Cell, 0x110347200, {{16.0, 783.0}, {370.0, 50.3}}, identifier: 'actionGroupCell', label: 'Open in Safari'
+                                                          Other, 0x110347340, {{16.0, 783.0}, {370.0, 50.3}}
+                                                            Other, 0x110347480, {{16.0, 783.0}, {370.0, 50.3}}
+                                                          Other, 0x1103475c0, {{16.0, 783.0}, {370.0, 50.3}}
+                                                            Other, 0x110347700, {{16.0, 783.0}, {370.0, 50.3}}
+                                                            Other, 0x110347840, {{36.0, 792.3}, {32.0, 32.0}}, identifier: 'imageStackView'
+                                                              Image, 0x110347980, {{36.0, 792.3}, {32.0, 32.0}}, identifier: 'activityImageView'
+                                                            Other, 0x110347ac0, {{76.0, 798.0}, {290.0, 20.3}}, identifier: 'titleStackView'
+                                                              StaticText, 0x110347c00, {{76.0, 798.0}, {290.0, 20.3}}, identifier: 'titleLabel', label: 'Open in Safari'
+                                                            Other, 0x110347d40, {{76.0, 798.0}, {290.0, 20.3}}
+                                                        Other, 0x110347e80, {{76.0, 782.0}, {290.0, 1.0}}
+                                                        Other, 0x11034c000, {{16.0, 833.3}, {370.0, 74.3}}, identifier: 'collectionView.footerEditView'
+                                                          Button, 0x11034c140, {{143.7, 853.3}, {114.7, 34.3}}, identifier: 'editButton', label: 'Edit Actions'
+                                                            StaticText, 0x11034c280, {{155.7, 860.3}, {90.7, 20.3}}, label: 'Edit Actions'
+                                                      Other, 0x11034c3c0, {{31.3, 195.3}, {339.3, 1.0}}
+                                                Toolbar, 0x11034c500, {{0.0, 63.0}, {402.0, 811.0}}, identifier: 'Toolbar', label: 'Toolbar'
+                                                  Other, 0x11034c640, {{0.0, 63.0}, {402.0, 811.0}}
+                                      Other, 0x11034c780, {{0.0, 63.0}, {402.0, 811.0}}
+                                        Other, 0x11034c8c0, {{0.0, 63.0}, {402.0, 811.0}}
+                                          Other, 0x11034ca00, {{0.0, 63.0}, {402.0, 811.0}}
+      Other, 0x11034cb40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x11034cc80, {{-402.0, -874.0}, {1206.0, 2622.0}}
+        Other, 0x11034cdc0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x11034cf00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x11034d040, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AddToHomeScreenView'
+              Other, 0x11034d180, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x11034d2c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x11034d400, {{0.0, 0.0}, {804.0, 1748.0}}
+                    Other, 0x11034d540, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x11034d680, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x11034d7c0, {{0.0, 62.0}, {402.0, 812.0}}
+                          Image, 0x11034d900, {{-150.0, -88.0}, {702.0, 1112.0}}
+                          Other, 0x11034da40, {{0.0, 62.0}, {402.0, 812.0}}
+                            Other, 0x11034db80, {{0.0, 62.0}, {402.0, 812.0}}
+                              Other, 0x11034dcc0, {{0.0, 62.0}, {402.0, 812.0}}
+                                Other, 0x11034de00, {{0.0, 62.0}, {402.0, 812.0}}
+                                  NavigationBar, 0x11034df40, {{0.0, 78.0}, {402.0, 54.0}}, identifier: 'Add to Home Screen'
+                                    Button, 0x11034e080, {{20.0, 82.0}, {36.0, 36.0}}, identifier: 'AddToHomeScreenCancelButton', label: 'Cancel'
+                                    StaticText, 0x11034e1c0, {{119.3, 89.7}, {163.3, 20.7}}, label: 'Add to Home Screen'
+                                    Button, 0x11034e300, {{326.0, 82.0}, {56.0, 36.0}}, identifier: 'AddToHomeScreenAddButton', label: 'Add'
+                                  Other, 0x11034e440, {{0.0, 62.0}, {402.0, 812.0}}
+                                    Other, 0x11034e580, {{0.0, 62.0}, {402.0, 812.0}}
+                                      Table, 0x11034e6c0, {{0.0, 62.0}, {402.0, 812.0}}
+                                        Other, 0x11034e800, {{0.0, 132.0}, {402.0, 17.7}}
+                                        Cell, 0x11034e940, {{0.0, 149.7}, {402.0, 45.0}}
+                                          Other, 0x11034ea80, {{0.0, 149.7}, {402.0, 1.0}}
+                                          Other, 0x11034ebc0, {{0.0, 149.7}, {402.0, 45.0}}
+                                            Other, 0x11034ed00, {{0.0, 149.7}, {402.0, 45.0}}
+                                          TextField, 0x11034ee40, {{90.0, 149.7}, {304.0, 45.0}}, value: SB default, Keyboard Focused
+                                            Button, 0x11034ef80, {{369.0, 162.7}, {19.7, 19.7}}, label: 'Clear text'
+                                          Other, 0x11034f0c0, {{90.0, 193.7}, {312.0, 1.0}}
+                                        Cell, 0x11034f200, {{0.0, 194.7}, {402.0, 52.0}}, Disabled
+                                          Other, 0x11034f340, {{0.0, 194.7}, {402.0, 52.0}}
+                                            Other, 0x11034f480, {{0.0, 194.7}, {402.0, 52.0}}
+                                          Other, 0x11034f5c0, {{0.0, 245.7}, {402.0, 1.0}}
+                                          StaticText, 0x11034f700, {{90.0, 194.7}, {296.0, 52.0}}, label: 'http://localhost:8000/'
+                                        Other, 0x11034f840, {{0.0, 264.0}, {402.0, 17.7}}
+                                        Cell, 0x11034f980, {{0.0, 281.7}, {402.0, 52.0}}, value: 1
+                                          Other, 0x11034fac0, {{0.0, 281.7}, {402.0, 1.0}}
+                                          Other, 0x11034fc00, {{0.0, 281.7}, {402.0, 52.0}}
+                                            Other, 0x11034fd40, {{0.0, 281.7}, {402.0, 52.0}}
+                                          Other, 0x11034fe80, {{0.0, 332.7}, {402.0, 1.0}}
+                                          StaticText, 0x110354000, {{20.0, 281.7}, {291.0, 52.0}}, label: 'Open as Web App'
+                                          Switch, 0x110354140, {{319.0, 293.7}, {63.0, 28.0}}, label: 'Open as Web App', value: 1
+                                        Other, 0x110354280, {{0.0, 333.7}, {402.0, 46.0}}
+                                          StaticText, 0x1103543c0, {{0.0, 333.7}, {402.0, 46.0}}, label: 'An icon will be added to your Home Screen so you can quickly access this website.'
+                                        Other, 0x110354500, {{369.0, 132.0}, {30.0, 414.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                                          Other, 0x110354640, {{396.0, 281.3}, {3.0, 261.7}}
+                                        Other, 0x110354780, {{62.0, 513.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                                          Other, 0x1103548c0, {{65.0, 540.0}, {272.0, 3.0}}
+                                        Other, 0x110354a00, {{0.0, 333.7}, {402.0, 46.0}}, label: 'An icon will be added to your Home Screen so you can quickly access this website.'
+                                  Toolbar, 0x110354b40, {{0.0, 62.0}, {402.0, 812.0}}, identifier: 'Toolbar', label: 'Toolbar'
+                                    Other, 0x110354c80, {{0.0, 62.0}, {402.0, 812.0}}
+                    Other, 0x110354dc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x110354f00, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x110355040, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x110355180, {{0.0, 546.0}, {402.0, 328.0}}
+                          Other, 0x1103552c0, {{0.0, 546.0}, {402.0, 328.0}}, identifier: 'inputView'
+                      Window, 0x110355400, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x110355540, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x110355680, {{0.0, 546.0}, {402.0, 328.0}}
+                            Other, 0x1103557c0, {{0.0, 546.0}, {402.0, 44.0}}, identifier: 'SystemInputAssistantView'
+                              Other, 0x110355900, {{0.0, 546.0}, {402.0, 44.0}}
+                                Other, 0x110355a40, {{0.0, 546.0}, {402.0, 44.0}}, identifier: 'CenterPageView'
+                                  Other, 0x110355b80, {{0.0, -54.0}, {402.0, 1244.0}}
+                                    ScrollView, 0x110355cc0, {{0.0, 546.0}, {402.0, 44.0}}
+                                  Other, 0x110355e00, {{0.0, 546.0}, {402.0, 44.0}}
+                                    Other, 0x110355f40, {{0.0, 546.0}, {402.0, 44.0}}
+                                      Other, 0x110356080, {{0.0, 546.0}, {402.0, 44.0}}, label: 'Typing Predictions'
+                                        Other, 0x1103561c0, {{0.0, 546.0}, {402.0, 44.0}}
+                                          Other, 0x110356300, {{0.0, 546.0}, {402.0, 44.0}}
+                                            Button, 0x110356440, {{0.0, 546.0}, {134.0, 44.0}}, label: '“default”'
+                                            Button, 0x110356580, {{134.0, 546.0}, {134.0, 44.0}}, label: 'defaults'
+                                            Button, 0x1103566c0, {{268.0, 546.0}, {134.0, 44.0}}, label: 'defaulted'
+                            Other, 0x110356800, {{0.0, 546.0}, {402.0, 328.0}}, identifier: 'UIContinuousPathIntroductionView'
+                              Other, 0x110356940, {{0.0, 546.0}, {402.0, 328.0}}
+                              Other, 0x110356a80, {{24.0, 546.0}, {354.0, 328.0}}
+                                Other, 0x110356bc0, {{24.0, 546.0}, {354.0, 251.0}}
+                                  ScrollView, 0x110356d00, {{24.0, 546.0}, {354.0, 251.0}}
+                                    Other, 0x110356e40, {{24.0, 546.0}, {354.0, 248.3}}
+                                      Other, 0x110356f80, {{61.0, 570.0}, {280.0, 168.0}}
+                                        Other, 0x1103570c0, {{61.0, 570.0}, {280.0, 168.0}}
+                                      StaticText, 0x110357200, {{24.0, 754.0}, {354.0, 40.3}}, label: 'Speed up your typing by sliding your finger across the letters to compose a word.'
+                                Button, 0x110357340, {{77.0, 809.0}, {248.0, 33.0}}, label: 'Continue'
+                                  StaticText, 0x110357480, {{165.7, 815.0}, {71.0, 21.0}}, label: 'Continue'
+                            Other, 0x1103575c0, {{0.0, 546.0}, {402.0, 329.0}}
+                              Other, 0x110357700, {{0.0, 546.0}, {402.0, 329.0}}
+                                Other, 0x110357840, {{0.0, 546.0}, {402.0, 329.0}}
+                            Other, 0x110357980, {{0.0, 590.0}, {402.0, 226.0}}
+                              Keyboard, 0x110357ac0, {{0.0, 590.0}, {402.0, 226.0}}
+                                Other, 0x110357c00, {{0.0, 590.0}, {402.0, 226.0}}
+                                  Other, 0x110357d40, {{0.0, 590.0}, {402.0, 226.0}}, identifier: 'UIKeyboardLayoutStar Preview'
+                                    Key, 0x110357e80, {{0.0, 590.0}, {0.0, 0.0}}, label: 'Padding-Left'
+                                    Key, 0x110360000, {{4.7, 597.0}, {39.3, 54.0}}, label: 'q'
+                                    Key, 0x110360140, {{44.0, 597.0}, {39.7, 54.0}}, label: 'w'
+                                    Key, 0x110360280, {{83.7, 597.0}, {39.3, 54.0}}, label: 'e'
+                                    Key, 0x1103603c0, {{123.0, 597.0}, {39.7, 54.0}}, label: 'r'
+                                    Key, 0x110360500, {{162.7, 597.0}, {39.3, 54.0}}, label: 't'
+                                    Key, 0x110360640, {{202.0, 597.0}, {39.7, 54.0}}, label: 'y'
+                                    Key, 0x110360780, {{241.7, 597.0}, {39.3, 54.0}}, label: 'u'
+                                    Key, 0x1103608c0, {{281.0, 597.0}, {39.7, 54.0}}, label: 'i'
+                                    Key, 0x110360a00, {{320.7, 597.0}, {39.3, 54.0}}, label: 'o'
+                                    Key, 0x110360b40, {{360.0, 597.0}, {39.7, 54.0}}, label: 'p'
+                                    Key, 0x110360c80, {{0.0, 590.0}, {0.0, 0.0}}, label: 'Padding-Right'
+                                    Key, 0x110360dc0, {{0.0, 590.0}, {0.0, 0.0}}, label: 'Padding-Left'
+                                    Key, 0x110360f00, {{24.3, 651.0}, {39.3, 54.0}}, label: 'a'
+                                    Key, 0x110361040, {{63.7, 651.0}, {39.7, 54.0}}, label: 's'
+                                    Key, 0x110361180, {{103.3, 651.0}, {39.3, 54.0}}, label: 'd'
+                                    Key, 0x1103612c0, {{142.7, 651.0}, {39.7, 54.0}}, label: 'f'
+                                    Key, 0x110361400, {{182.3, 651.0}, {39.3, 54.0}}, label: 'g'
+                                    Key, 0x110361540, {{221.7, 651.0}, {39.7, 54.0}}, label: 'h'
+                                    Key, 0x110361680, {{261.3, 651.0}, {39.3, 54.0}}, label: 'j'
+                                    Key, 0x1103617c0, {{300.7, 651.0}, {39.7, 54.0}}, label: 'k'
+                                    Key, 0x110361900, {{340.3, 651.0}, {39.3, 54.0}}, label: 'l'
+                                    Key, 0x110361a40, {{0.0, 590.0}, {0.0, 0.0}}, label: 'Padding-Right'
+                                    Button, 0x110361b80, {{4.7, 705.0}, {51.3, 54.0}}, identifier: 'shift', label: 'shift'
+                                    Key, 0x110361cc0, {{0.0, 590.0}, {0.0, 0.0}}, label: 'Padding-Left'
+                                    Key, 0x110361e00, {{63.7, 705.0}, {39.7, 54.0}}, label: 'z'
+                                    Key, 0x110361f40, {{103.3, 705.0}, {39.3, 54.0}}, label: 'x'
+                                    Key, 0x110362080, {{142.7, 705.0}, {39.7, 54.0}}, label: 'c'
+                                    Key, 0x1103621c0, {{182.3, 705.0}, {39.3, 54.0}}, label: 'v'
+                                    Key, 0x110362300, {{221.7, 705.0}, {39.7, 54.0}}, label: 'b'
+                                    Key, 0x110362440, {{261.3, 705.0}, {39.3, 54.0}}, label: 'n'
+                                    Key, 0x110362580, {{300.7, 705.0}, {39.7, 54.0}}, label: 'm'
+                                    Key, 0x1103626c0, {{0.0, 590.0}, {0.0, 0.0}}, label: 'Padding-Right'
+                                    Key, 0x110362800, {{348.0, 705.0}, {51.7, 54.0}}, identifier: 'delete', label: 'delete'
+                                    Key, 0x110362940, {{4.7, 759.0}, {98.7, 54.0}}, identifier: 'more', label: 'numbers'
+                                    Key, 0x110362a80, {{103.3, 759.0}, {197.3, 54.0}}, identifier: 'space', label: 'space'
+                                    Button, 0x110362bc0, {{300.7, 759.0}, {99.0, 54.0}}, identifier: 'Done', label: 'done'
+                            Other, 0x110362d00, {{0.0, 590.0}, {402.0, 284.0}}
+                              Button, 0x110362e40, {{8.5, 805.7}, {68.1, 68.7}}, label: 'Emoji'
+                                StaticText, 0x110362f80, {{8.5, 805.7}, {0.0, 0.0}}
+                              Button, 0x1103630c0, {{325.4, 805.4}, {68.1, 68.7}}, identifier: 'dictation', label: 'Dictate'
+                                StaticText, 0x110363200, {{325.4, 805.4}, {0.0, 0.0}}
+                              Button, 0x110363340, {{325.4, 805.4}, {68.1, 68.7}}, identifier: 'dictation', label: 'Dictate'
+                                StaticText, 0x110363480, {{325.4, 805.4}, {0.0, 0.0}}
+    Window, 0x1103635c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x110363700, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x110363840, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1103208c0, pid: 6314, label: 'Safari'
+Query chain:
+ →Find: Application 'com.apple.mobilesafari'
+  Output: {
+    Application, 0x110363980, pid: 6314, label: 'Safari'
+  }
