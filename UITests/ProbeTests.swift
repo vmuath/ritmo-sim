@@ -71,12 +71,13 @@ final class ProbeTests: XCTestCase {
     }
 
     @discardableResult
-    func tap(_ text: String, in app: XCUIApplication, timeout: TimeInterval = 6) -> Bool {
+    func tap(_ text: String, in app: XCUIApplication, timeout: TimeInterval = 6, orAt point: CGPoint? = nil) -> Bool {
         if let e = element(text, in: app, timeout: timeout) {
             log("tap '\(text)' at \(e.frame)")
             e.tap()
             return true
         }
+        if let point { tapPoint(point.x, point.y, "'\(text)' by position"); return true }
         log("NOT FOUND '\(text)'")
         return false
     }
@@ -159,13 +160,13 @@ final class ProbeTests: XCTestCase {
             sleep(3); keep("dock-\(round)")
             tap("New food", in: app, timeout: 6)
             sleep(3); keep("newfood-\(round)")
-            tap("Close", in: app, timeout: 6)         // the New food ✕
+            tap("Close", in: app, timeout: 3, orAt: CGPoint(x: 359, y: 112))   // the New food ✕
             sleep(3); keep("back-\(round)")
             tap("New food", in: app, timeout: 6)
             sleep(3); keep("newfood-again-\(round)")
-            tap("Close", in: app, timeout: 6)
+            tap("Close", in: app, timeout: 3, orAt: CGPoint(x: 359, y: 112))
             sleep(3); keep("back-again-\(round)")
-            tap("Close", in: app, timeout: 6)         // the dock ✕
+            tap("Close", in: app, timeout: 3, orAt: CGPoint(x: 359, y: 207))   // the dock ✕
             sleep(3); keep("dock-closed-\(round)")
         }
         saveLog()
