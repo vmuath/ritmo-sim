@@ -22,6 +22,9 @@ targets:
     type: bundle.ui-testing
     platform: iOS
     sources: [UITests]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
     dependencies:
       - target: Host
 schemes:

@@ -12,6 +12,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 concurrency:
   group: probe
   cancel-in-progress: true
@@ -50,6 +53,7 @@ jobs:
 
       - name: Build the test project
         run: |
+          set -o pipefail
           xcodegen generate
           xcodebuild build-for-testing -project Probe.xcodeproj -scheme Probe \
             -destination "id=$UDID" -derivedDataPath dd CODE_SIGN_IDENTITY=- | tail -5
@@ -75,6 +79,17 @@ jobs:
           mkdir -p out/steps
           xcrun xcresulttool export attachments --path out/probe.xcresult --output-path out/steps || true
           ls -la out out/steps | head -80
+
+      # Results go to a branch (results/<run id>): Claude's workspace can fetch git but not artifact storage.
+      - name: Publish results to a branch
+        if: always()
+        run: |
+          B=results/${{ github.run_id }}
+          rm -rf /tmp/r && mkdir -p /tmp/r && cp -R out/steps out/*.txt out/*.mp4 /tmp/r/ 2>/dev/null || true
+          cd /tmp/r && git init -q -b "$B" && git add -A
+          git -c user.name=probe -c user.email=probe@users.noreply.github.com commit -qm "Probe results ${{ github.run_id }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "$B"
+          echo "published $B"
 
       - uses: actions/upload-artifact@v4
         if: always()
