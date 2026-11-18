@@ -61,7 +61,7 @@ class SimTestCase: XCTestCase {
         let end = Date().addingTimeInterval(timeout)
         repeat {
             let all = q.allElementsBoundByIndex.filter { $0.exists && $0.isHittable }
-            if let last = all.last { return last }
+            if let best = all.max(by: { $0.frame.width * $0.frame.height < $1.frame.width * $1.frame.height }) { return best }  // a row beats a small icon with the same label
             usleep(250_000)
         } while Date() < end
         return nil
