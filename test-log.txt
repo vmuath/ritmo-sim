@@ -1,0 +1,18 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=B619747E-A8ED-479D-910A-5E65E3D6077E -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/StatusBarTests" "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-18 23:38:09.551 xcodebuild[5242:20751] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' started.
+PROBE 1795045126.189 screen (402.0, 874.0)
+PROBE 1795045147.849 kept 01-def-safari
+PROBE 1795045150.736 dismiss 'Close'
+PROBE 1795045157.475 NOT FOUND 'Share'
+PROBE 1795045158.352 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795045162.290 tap 'Share' at (82.3333333333333, 330.0, 250.0, 42.0)
+/Users/runner/work/ritmo-sim/ritmo-sim/UITests/Support.swift:63: error: -[ProbeUITests.StatusBarTests testStatusBar] : Failed to determine hittability of "cellTitleLabel" StaticText: Activation point invalid and no suggested hit points based on element frame
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' failed (47.130 seconds).
+Test Suite 'StatusBarTests' failed at 2026-11-18 23:39:32.567.
+Test Suite 'ProbeUITests.xctest' failed at 2026-11-18 23:39:32.570.
+Test Suite 'Selected tests' failed at 2026-11-18 23:39:32.570.
+2026-11-18 23:39:33.007 xcodebuild[5242:20751] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:39:33.008 xcodebuild[5242:20751] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-18 23:39:33.022 xcodebuild[5242:20751] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).

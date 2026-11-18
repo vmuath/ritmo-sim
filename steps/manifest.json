@@ -1,0 +1,107 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "11A5E0A6-A627-4C02-A4A1-7BB391D1D1D2",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.39.22 PM",
+        "timestamp" : 1795045162.407
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "4BF1BA7F-7ECE-441C-B647-305115027E67",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.39.22 PM",
+        "timestamp" : 1795045162.71
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "0768A672-0FC2-4AF6-9E0E-883BAEF9D4A7",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.39.18 PM",
+        "timestamp" : 1795045158.511
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "09E48A8D-1B14-4262-BF7D-5FA628AE3A36",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.39.19 PM",
+        "timestamp" : 1795045159.189
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "7C734DFB-1082-49B0-B7A1-705CE4513803",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.39.10 PM",
+        "timestamp" : 1795045150.904
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "2C2BBE02-A24A-4663-8636-B9CA51E40737",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Synthesized Event 2026-11-18 at 11.39.11 PM",
+        "timestamp" : 1795045151.42
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "DA19F233-0520-4ACE-BAC5-DDE4BCD0F681.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "01-def-safari_0_C7FDA966-776E-4B01-93B2-EC86416CCA13.txt",
+        "timestamp" : 1795045147.848
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "30F7D74F-F284-4371-95D3-544A5BBB77AE.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "01-def-safari_0_E5A8764D-FE8C-4A46-9456-70D204E32376.png",
+        "timestamp" : 1795045144.015
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "44869B09-14E7-4157-81F1-C01ED37EF8E3.mp4",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Screen Recording 2026-11-18 at 11.38.45 PM.mp4",
+        "timestamp" : 1795045125.53
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "FBF7B6AE-A60C-47A5-A848-4020C57D00A9.txt",
+        "isAssociatedWithFailure" : true,
+        "suggestedHumanReadableName" : "App UI hierarchy for com.apple_0_94DFA295-7F3A-47B2-AE70-CB6B1306C36C.mobilesafari",
+        "timestamp" : 1795045170.111
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B619747E-A8ED-479D-910A-5E65E3D6077E",
+        "deviceName" : "probe",
+        "exportedFileName" : "EC282D59-0FF9-4ECA-A1F1-50CE42755913",
+        "isAssociatedWithFailure" : true,
+        "suggestedHumanReadableName" : "UI Snapshot 2026-11-18 at 11.39.30 PM",
+        "timestamp" : 1795045170.111
+      }
+    ],
+    "testIdentifier" : "StatusBarTests/testStatusBar()",
+    "testIdentifierURL" : "test://com.apple.xcode/Probe/ProbeUITests/StatusBarTests/testStatusBar"
+  }
+]

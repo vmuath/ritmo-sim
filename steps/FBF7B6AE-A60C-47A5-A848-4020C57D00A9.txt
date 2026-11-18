@@ -1,0 +1,184 @@
+Application, 0x10ff01040, pid: 6124, label: 'Safari' <App element pid: 6124>
+  Window (Main), 0x10ff01180, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4435970048.4>
+    Other, 0x10ff012c0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4422423040.203>
+    Other, 0x10ff01400, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 5262863616.6>
+      Other, 0x10ff01540, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 5262864256.8>
+        Other, 0x10ff01680, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SafariWindow?View=Narrow&BarsKeptMinimized=false&UUID=F2E95DDC-962D-40FC-B8D8-2C9CFC4E34F5&UsingLoweredBar=true&IsSecure=false&IsTabBarAvailable=false' <AX element pid: 6124, elementOrHash.elementID: 4382601216.10>
+          Other, 0x10ff017c0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4382601728.11>
+            Other, 0x10ff01900, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4382602240.13>
+              Other, 0x10ff01a40, {{0.0, 0.0}, {402.0, 49.0}} <AX element pid: 6124, elementOrHash.elementID: 4423436288.15>
+                Other, 0x10ff01b80, {{0.0, 0.0}, {402.0, 49.0}} <AX element pid: 6124, elementOrHash.elementID: 4426073408.23>
+                Other, 0x10ff01cc0, {{0.0, 0.0}, {402.0, 49.0}} <AX element pid: 6124, elementOrHash.elementID: 5263836416.24>
+              Other, 0x10ff01e00, {{0.0, 0.0}, {402.0, 62.0}} <AX element pid: 6124, elementOrHash.elementID: 4382603776.16>
+              ScrollView, 0x10ff01f40, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4376302592.17>
+                Other, 0x10ff02080, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4426084160.25>
+                  Other, 0x10ff021c0, {{0.0, 0.0}, {402.0, 102.0}} <AX element pid: 6124, elementOrHash.elementID: 4426151040.34>
+                Other, 0x10ff02300, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4426083712.26>
+                Other, 0x10ff02440, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'TabDocument?IsLoadedUsingDesktopUserAgent=false&InReaderMode=false&UUID=42EC2D94-632B-42C4-8EEF-7866109D6786&IsPrivate=false&IsPageLoaded=true&WebViewProcessID=6181' <AX element pid: 6124, elementOrHash.elementID: 5262866176.27>
+                  WebView, 0x10ff02580, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'WebView' <AX element pid: 6124, elementOrHash.elementID: 4376297472.35>
+                    WebView, 0x10ff026c0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4376300032.44>
+                      Other, 0x10ff02800, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4426058368.124>
+                        Other, 0x10ff02940, {{0.0, 0.0}, {402.0, 89.0}} <AX element pid: 6124, elementOrHash.elementID: 4426193920.127>
+                        Other, 0x10ff02a80, {{0.0, 736.0}, {402.0, 138.0}} <AX element pid: 6124, elementOrHash.elementID: 4426192128.128>
+                      WebView, 0x10ff02bc0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4381725696.53>
+                        Other, 0x10ff02d00, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 16027411120068177934.9999>
+                          Other, 0x10ff02e40, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6181, elementOrHash.elementID: 4343387104.3>
+                            Other, 0x10ff02f80, {{0.0, 62.0}, {402.0, 874.0}} <AX element pid: 6181, elementOrHash.elementID: 4401566944.6>
+                              Other, 0x10ff030c0, {{0.0, 62.0}, {402.0, 754.0}}, label: 'SB default', Focused <AX element pid: 6181, elementOrHash.elementID: 4401566912.7>
+                                Other, 0x10ff03200, {{20.0, 292.0}, {362.0, 27.0}}, Focused <AX element pid: 6181, elementOrHash.elementID: 4401546560.22>
+                                  StaticText, 0x10ff03340, {{20.0, 293.0}, {122.0, 25.0}}, label: 'mode default', value: mode default, Focused <AX element pid: 6181, elementOrHash.elementID: 4401545824.27>
+                                Other, 0x10ff03480, {{20.0, 325.0}, {362.0, 27.0}}, Focused <AX element pid: 6181, elementOrHash.elementID: 4401546784.23>
+                                  StaticText, 0x10ff035c0, {{20.0, 326.0}, {173.0, 25.0}}, label: 'installed as default', value: installed as default, Focused <AX element pid: 6181, elementOrHash.elementID: 4401546464.28>
+                                Other, 0x10ff03700, {{20.0, 358.0}, {362.0, 27.0}}, Focused <AX element pid: 6181, elementOrHash.elementID: 4401546592.24>
+                                  StaticText, 0x10ff03840, {{20.0, 359.0}, {264.0, 25.0}}, label: 'innerHeight 714 / screen 874', value: innerHeight 714 / ..., Focused <AX element pid: 6181, elementOrHash.elementID: 4401546528.29>
+                                Other, 0x10ff03980, {{20.0, 391.0}, {362.0, 27.0}}, Focused <AX element pid: 6181, elementOrHash.elementID: 4401546624.25>
+                                  StaticText, 0x10ff03ac0, {{20.0, 392.0}, {181.0, 25.0}}, label: 'safe top 0 bottom 0', value: safe top 0 bottom 0, Focused <AX element pid: 6181, elementOrHash.elementID: 4401547040.30>
+                                Other, 0x10ff03c00, {{20.0, 424.0}, {362.0, 27.0}}, Focused <AX element pid: 6181, elementOrHash.elementID: 4401546656.26>
+                                  StaticText, 0x10ff03d40, {{20.0, 425.0}, {151.0, 25.0}}, label: 'standalone false', value: standalone false, Focused <AX element pid: 6181, elementOrHash.elementID: 4401547456.31>
+                                Button, 0x10ff03e80, {{20.0, 582.0}, {362.0, 51.0}}, label: 'Dim', Focused <AX element pid: 6181, elementOrHash.elementID: 4401567200.13>
+                                Button, 0x10ff05f40, {{20.0, 742.0}, {362.0, 51.0}}, label: 'Dark top', Focused <AX element pid: 6181, elementOrHash.elementID: 4401567264.14>
+                                Button, 0x10ff07480, {{20.0, 662.0}, {175.0, 51.0}}, label: 'Use translucent', Focused <AX element pid: 6181, elementOrHash.elementID: 4401567328.15>
+                                Button, 0x10ff58000, {{207.0, 662.0}, {175.0, 51.0}}, label: 'Use default', Focused <AX element pid: 6181, elementOrHash.elementID: 4401567360.16>
+                      Other, 0x10ff58140, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4426057920.125>
+                        Other, 0x10ff58280, {{0.0, 0.0}, {402.0, 89.0}} <AX element pid: 6124, elementOrHash.elementID: 6162303488.129>
+                        Other, 0x10ff583c0, {{0.0, 736.0}, {402.0, 138.0}} <AX element pid: 6124, elementOrHash.elementID: 6162302848.130>
+                      Other, 0x10ff58500, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0% <AX element pid: 6124, elementOrHash.elementID: 4422974464.54>
+                        Other, 0x10ff58640, {{396.0, 65.0}, {3.0, 711.3}} <AX element pid: 6124, elementOrHash.elementID: 4426165632.67>
+                      Other, 0x10ff58780, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0% <AX element pid: 6124, elementOrHash.elementID: 4422967808.55>
+                        Other, 0x10ff588c0, {{65.0, 868.0}, {272.0, 3.0}} <AX element pid: 6124, elementOrHash.elementID: 4426165184.68>
+                      Other, 0x10ff58a00, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0% <AX element pid: 6124, elementOrHash.elementID: 4422974464.54>
+                        Other, 0x10ff58b40, {{396.0, 65.0}, {3.0, 711.3}} <AX element pid: 6124, elementOrHash.elementID: 4426165632.67>
+                      Other, 0x10ff58c80, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0% <AX element pid: 6124, elementOrHash.elementID: 4422967808.55>
+                        Other, 0x10ff58dc0, {{65.0, 868.0}, {272.0, 3.0}} <AX element pid: 6124, elementOrHash.elementID: 4426165184.68>
+                Other, 0x10ff58f00, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0% <AX element pid: 6124, elementOrHash.elementID: 4422978048.28>
+                  Other, 0x10ff59040, {{334.3, 868.0}, {7.0, 3.0}} <AX element pid: 6124, elementOrHash.elementID: 4426084608.36>
+                Other, 0x10ff59180, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0% <AX element pid: 6124, elementOrHash.elementID: 4422978048.28>
+                  Other, 0x10ff592c0, {{334.3, 868.0}, {7.0, 3.0}} <AX element pid: 6124, elementOrHash.elementID: 4426084608.36>
+          Other, 0x10ff59400, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'CapsuleViewController' <AX element pid: 6124, elementOrHash.elementID: 4379776000.12>
+            Other, 0x10ff59540, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 4382604288.14>
+              Other, 0x10ff59680, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 4423434240.19>
+                Other, 0x10ff597c0, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 4379436032.30>
+                  Other, 0x10ff59900, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 4423443968.40>
+                    Other, 0x10ff59a40, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 4423444480.50>
+                      Other, 0x10ff59b80, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 5262864896.61>
+                        Other, 0x10ff59cc0, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 4426080576.70>
+                    Other, 0x10ff59e00, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 5262865536.51>
+                      Other, 0x10ff59f40, {{0.0, 776.0}, {402.0, 98.0}} <AX element pid: 6124, elementOrHash.elementID: 4423445504.62>
+              Other, 0x10ff5a080, {{34.0, 792.0}, {48.0, 48.0}} <AX element pid: 6124, elementOrHash.elementID: 5263837056.20>
+                Other, 0x10ff5a1c0, {{34.0, 792.0}, {48.0, 48.0}} <AX element pid: 6124, elementOrHash.elementID: 4423434752.31>
+                  Button, 0x10ff5a300, {{34.0, 792.0}, {48.0, 48.0}}, identifier: 'BackButton', label: 'Back', Disabled <AX element pid: 6124, elementOrHash.elementID: 4426527872.41>
+              Other, 0x10ff5a440, {{90.0, 792.0}, {222.0, 48.0}} <AX element pid: 6124, elementOrHash.elementID: 4423339776.21>
+                Other, 0x10ff5a580, {{90.0, 792.0}, {222.0, 48.0}} <AX element pid: 6124, elementOrHash.elementID: 4426073856.32>
+                  Other, 0x10ff5a6c0, {{90.0, 792.0}, {222.0, 48.0}} <AX element pid: 6124, elementOrHash.elementID: 4426074304.42>
+                    Other, 0x10ff5a800, {{90.0, 792.0}, {222.0, 48.0}}, identifier: 'CapsuleNavigationBar?isSelected=true&isDistractionControlOverlayUp=false', Selected <AX element pid: 6124, elementOrHash.elementID: 4426548096.52>
+                      Button, 0x10ff5a940, {{90.0, 792.0}, {48.0, 48.0}}, identifier: 'MoreMenuButton', label: 'Page Menu' <AX element pid: 6124, elementOrHash.elementID: 4435946496.64>
+                        StaticText, 0x10ff5aa80, {{90.0, 792.0}, {0.0, 0.0}} <AX element pid: 6124, elementOrHash.elementID: 4423449600.72>
+                      TextField, 0x10ff5abc0, {{165.7, 806.0}, {71.0, 20.3}}, identifier: 'TabBarItemTitle', label: 'Address', value: ‎localhost <AX element pid: 6124, elementOrHash.elementID: 4423340544.65>
+                      Button, 0x10ff5ad00, {{281.3, 805.3}, {17.7, 21.7}}, identifier: 'ReloadButton', label: 'refresh' <AX element pid: 6124, elementOrHash.elementID: 4426597248.126>
+              Other, 0x10ff5ae40, {{320.0, 792.0}, {48.0, 48.0}} <AX element pid: 6124, elementOrHash.elementID: 5263840256.22>
+                Other, 0x10ff5af80, {{320.0, 792.0}, {48.0, 48.0}} <AX element pid: 6124, elementOrHash.elementID: 4423435264.33>
+                  Button, 0x10ff5b0c0, {{320.0, 792.0}, {48.0, 48.0}}, identifier: 'TabOverviewButton', label: 'Tabs' <AX element pid: 6124, elementOrHash.elementID: 4426529664.43>
+    Other, 0x10ff5b200, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 6020198272.204>
+      Other, 0x10ff5b340, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'PopoverDismissRegion', label: 'dismiss popup' <AX element pid: 6124, elementOrHash.elementID: 6020095488.205>
+      Popover, 0x10ff5b480, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6020195712.206>
+        Other, 0x10ff5b5c0, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6020195072.207>
+          Other, 0x10ff5b700, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6020201472.208>
+            Other, 0x10ff5b840, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6020198912.209>
+              Other, 0x10ff5b980, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6165032320.210>
+                Other, 0x10ff5bac0, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6165033216.211>
+                  Other, 0x10ff5bc00, {{9.0, 480.3}, {0.0, 0.0}} <AX element pid: 6124, elementOrHash.elementID: 6165033664.212>
+                    Other, 0x10ff5bd40, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 4422419456.213>
+                      Other, 0x10ff5be80, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6165034112.214>
+                        Other, 0x10ff68000, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 4423374848.215>
+                          Other, 0x10ff68140, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6165031872.216>
+                            Other, 0x10ff68280, {{9.0, 480.3}, {384.0, 384.7}}, identifier: 'ActivityListView' <AX element pid: 6124, elementOrHash.elementID: 6165023808.217>
+                              Other, 0x10ff683c0, {{9.0, 480.3}, {384.0, 384.7}}, identifier: 'ShareSheet.RemoteContainerView' <AX element pid: 6124, elementOrHash.elementID: 6165024256.218>
+                                Other, 0x10ff68500, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 4422359552.219>
+                                  Other, 0x10ff68640, {{9.0, 480.3}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 6020098048.220>
+                                    Other, 0x10ff68780, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6124, elementOrHash.elementID: 11374434627517269547.9999>
+                                      Other, 0x10ff688c0, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4420655360.4>
+                                        Other, 0x10ff68a00, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4420656000.5>
+                                          Other, 0x10ff68b40, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4353683968.6>
+                                            Other, 0x10ff68c80, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4353677824.7>
+                                              NavigationBar, 0x10ff68dc0, {{0.0, 0.0}, {384.0, 129.0}}, identifier: 'SB default' <AX element pid: 6238, elementOrHash.elementID: 4417136384.8>
+                                                Image, 0x10ff68f00, {{27.7, 27.8}, {64.0, 64.0}}, identifier: 'safari', label: 'safari' <AX element pid: 6238, elementOrHash.elementID: 4426592128.11>
+                                                StaticText, 0x10ff69040, {{106.7, 27.8}, {249.7, 18.0}}, label: 'SB default' <AX element pid: 6238, elementOrHash.elementID: 4417777664.12>
+                                                StaticText, 0x10ff69180, {{106.7, 47.8}, {249.7, 18.0}}, label: 'localhost' <AX element pid: 6238, elementOrHash.elementID: 4417779712.13>
+                                                StaticText, 0x10ff692c0, {{106.7, 47.8}, {249.7, 18.0}}, label: 'localhost' <AX element pid: 6238, elementOrHash.elementID: 4417778688.14>
+                                                Button, 0x10ff69400, {{106.7, 76.8}, {91.7, 36.0}}, label: 'Options ' <AX element pid: 6238, elementOrHash.elementID: 4426475136.15>
+                                                  StaticText, 0x10ff69540, {{118.7, 84.5}, {67.7, 20.3}}, label: 'Options ' <AX element pid: 6238, elementOrHash.elementID: 4417777152.18>
+                                              Other, 0x10ff69680, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4353464000.9>
+                                                Other, 0x10ff697c0, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4353684992.16>
+                                                  Other, 0x10ff69900, {{0.0, 0.0}, {384.0, 384.7}}, identifier: 'shareSheet.activity.contentView' <AX element pid: 6238, elementOrHash.elementID: 4353459072.19>
+                                                    CollectionView, 0x10ff69a40, {{0.0, 0.0}, {384.0, 384.7}}, identifier: 'activityCollectionView' <AX element pid: 6238, elementOrHash.elementID: 4416700416.22>
+                                                      Other, 0x10ff69b80, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4353460864.24>
+                                                        Other, 0x10ff69cc0, {{0.0, 0.0}, {384.0, 169.0}} <AX element pid: 6238, elementOrHash.elementID: 4353468480.32>
+                                                      Other, 0x10ff69e00, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4353460416.25>
+                                                      ScrollView, 0x10ff69f40, {{19.7, 129.0}, {344.7, 120.3}} <AX element pid: 6238, elementOrHash.elementID: 4351557632.26>
+                                                        Cell, 0x10ff6a080, {{19.7, 129.0}, {82.0, 120.3}}, identifier: 'shareCell', label: 'News' <AX element pid: 6238, elementOrHash.elementID: 4426471552.33>
+                                                          Other, 0x10ff6a1c0, {{19.7, 129.0}, {82.0, 120.3}} <AX element pid: 6238, elementOrHash.elementID: 4427690688.41>
+                                                            Other, 0x10ff6a300, {{19.7, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4428073472.57>
+                                                              StaticText, 0x10ff6a440, {{19.7, 219.0}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'News' <AX element pid: 6238, elementOrHash.elementID: 4417767936.77>
+                                                              StaticText, 0x10ff6a580, {{19.7, 219.0}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4417768448.78>
+                                                              Other, 0x10ff6a6c0, {{19.7, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4427691584.79>
+                                                            Image, 0x10ff6a800, {{27.7, 145.0}, {66.0, 66.0}}, identifier: 'activityImageView' <AX element pid: 6238, elementOrHash.elementID: 4428074112.58>
+                                                        Cell, 0x10ff6a940, {{107.3, 129.0}, {82.0, 120.3}}, identifier: 'shareCell', label: 'Reminders' <AX element pid: 6238, elementOrHash.elementID: 4426466176.34>
+                                                          Other, 0x10ff6aa80, {{107.3, 129.0}, {82.0, 120.3}} <AX element pid: 6238, elementOrHash.elementID: 4427677696.42>
+                                                            Other, 0x10ff6abc0, {{107.3, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4426584448.59>
+                                                              StaticText, 0x10ff6ad00, {{107.3, 219.0}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Reminders' <AX element pid: 6238, elementOrHash.elementID: 4417817600.80>
+                                                              StaticText, 0x10ff6ae40, {{107.3, 219.0}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4417818112.81>
+                                                              Other, 0x10ff6af80, {{107.3, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4427678592.82>
+                                                            Image, 0x10ff6b0c0, {{115.3, 145.0}, {66.0, 66.0}}, identifier: 'activityImageView' <AX element pid: 6238, elementOrHash.elementID: 4426588288.60>
+                                                        Cell, 0x10ff6b200, {{195.0, 129.0}, {82.0, 120.3}}, identifier: 'shareCell', label: 'Safari' <AX element pid: 6238, elementOrHash.elementID: 4426467968.35>
+                                                          Other, 0x10ff6b340, {{195.0, 129.0}, {82.0, 120.3}} <AX element pid: 6238, elementOrHash.elementID: 4427682176.43>
+                                                            Other, 0x10ff6b480, {{195.0, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4426590848.61>
+                                                              StaticText, 0x10ff6b5c0, {{195.0, 219.0}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Safari' <AX element pid: 6238, elementOrHash.elementID: 4417823232.83>
+                                                              StaticText, 0x10ff6b700, {{195.0, 219.0}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4417823744.84>
+                                                              Other, 0x10ff6b840, {{195.0, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4427683072.85>
+                                                            Image, 0x10ff6b980, {{203.0, 145.0}, {66.0, 66.0}}, identifier: 'activityImageView' <AX element pid: 6238, elementOrHash.elementID: 4426591488.62>
+                                                        Cell, 0x10ff6bac0, {{282.7, 129.0}, {82.0, 120.3}}, identifier: 'shareCell', label: 'More' <AX element pid: 6238, elementOrHash.elementID: 4426467072.36>
+                                                          Other, 0x10ff6bc00, {{282.7, 129.0}, {82.0, 120.3}} <AX element pid: 6238, elementOrHash.elementID: 4427679936.44>
+                                                            Other, 0x10ff6bd40, {{282.7, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4426588928.63>
+                                                              StaticText, 0x10ff6be80, {{282.7, 219.0}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'More' <AX element pid: 6238, elementOrHash.elementID: 4417820672.86>
+                                                              StaticText, 0x10ff74000, {{282.7, 219.0}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4417821184.87>
+                                                              Other, 0x10ff74140, {{282.7, 219.0}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4427680832.88>
+                                                            Image, 0x10ff74280, {{290.7, 145.0}, {66.0, 66.0}}, identifier: 'activityImageView' <AX element pid: 6238, elementOrHash.elementID: 4426590208.64>
+                                                      Cell, 0x10ff743c0, {{19.7, 250.3}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'Copy' <AX element pid: 6238, elementOrHash.elementID: 4426473344.27>
+                                                        Other, 0x10ff74500, {{19.7, 250.3}, {82.0, 134.3}} <AX element pid: 6238, elementOrHash.elementID: 4428186496.37>
+                                                          Other, 0x10ff74640, {{27.7, 266.3}, {66.0, 66.0}} <AX element pid: 6238, elementOrHash.elementID: 4428077312.45>
+                                                          Image, 0x10ff74780, {{44.7, 280.3}, {32.0, 38.0}}, identifier: 'activityImageView', label: 'copy' <AX element pid: 6238, elementOrHash.elementID: 4428078592.46>
+                                                          Other, 0x10ff748c0, {{19.7, 338.3}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4428077952.47>
+                                                            StaticText, 0x10ff74a00, {{19.7, 338.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Copy' <AX element pid: 6238, elementOrHash.elementID: 4417775104.65>
+                                                            StaticText, 0x10ff74b40, {{19.7, 338.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4417775616.66>
+                                                            Other, 0x10ff74c80, {{19.7, 338.3}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4428187392.67>
+                                                      Other, 0x10ff74dc0, {{27.7, 249.3}, {328.7, 1.0}}, identifier: 'collectionView.footerView' <AX element pid: 6238, elementOrHash.elementID: 4428079232.28>
+                                                      Cell, 0x10ff74f00, {{107.3, 250.3}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'Add to Bookmarks' <AX element pid: 6238, elementOrHash.elementID: 4426469760.29>
+                                                        Other, 0x10ff75040, {{107.3, 250.3}, {82.0, 134.3}} <AX element pid: 6238, elementOrHash.elementID: 4427687104.38>
+                                                          Other, 0x10ff75180, {{115.3, 266.3}, {66.0, 66.0}} <AX element pid: 6238, elementOrHash.elementID: 4426593408.48>
+                                                          Image, 0x10ff752c0, {{132.3, 282.7}, {32.0, 33.3}}, identifier: 'activityImageView', label: 'bookmark' <AX element pid: 6238, elementOrHash.elementID: 4428070912.49>
+                                                          Other, 0x10ff75400, {{107.3, 338.3}, {82.0, 30.3}} <AX element pid: 6238, elementOrHash.elementID: 4426595328.50>
+                                                            StaticText, 0x10ff75540, {{107.3, 338.3}, {82.0, 30.3}}, identifier: 'cellTitleLabel', label: 'Add to Bookmarks' <AX element pid: 6238, elementOrHash.elementID: 4351770624.68>
+                                                            StaticText, 0x10ff75680, {{107.3, 338.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4351771648.69>
+                                                            Other, 0x10ff757c0, {{107.3, 338.3}, {82.0, 30.3}} <AX element pid: 6238, elementOrHash.elementID: 4427688000.70>
+                                                      Cell, 0x10ff75900, {{195.0, 250.3}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'Add to Reading List' <AX element pid: 6238, elementOrHash.elementID: 4426472448.30>
+                                                        Other, 0x10ff75a40, {{195.0, 250.3}, {82.0, 134.3}} <AX element pid: 6238, elementOrHash.elementID: 4427692928.39>
+                                                          Other, 0x10ff75b80, {{203.0, 266.3}, {66.0, 66.0}} <AX element pid: 6238, elementOrHash.elementID: 4428075392.51>
+                                                          Image, 0x10ff75cc0, {{220.0, 288.0}, {32.0, 22.3}}, identifier: 'activityImageView', label: 'reading list' <AX element pid: 6238, elementOrHash.elementID: 4428076672.52>
+                                                          Other, 0x10ff75e00, {{195.0, 338.3}, {82.0, 30.3}} <AX element pid: 6238, elementOrHash.elementID: 4428076032.53>
+                                                            StaticText, 0x10ff75f40, {{195.0, 338.3}, {82.0, 30.3}}, identifier: 'cellTitleLabel', label: 'Add to Reading List' <AX element pid: 6238, elementOrHash.elementID: 4417771520.71>
+                                                            StaticText, 0x10ff76080, {{195.0, 338.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4417772032.72>
+                                                            Other, 0x10ff761c0, {{195.0, 338.3}, {82.0, 30.3}} <AX element pid: 6238, elementOrHash.elementID: 4428185600.73>
+                                                      Cell, 0x10ff76300, {{282.7, 250.3}, {82.0, 134.3}}, identifier: 'actionGroupCell', label: 'View More' <AX element pid: 6238, elementOrHash.elementID: 4426468864.31>
+                                                        Other, 0x10ff76440, {{282.7, 250.3}, {82.0, 134.3}} <AX element pid: 6238, elementOrHash.elementID: 4427685312.40>
+                                                          Other, 0x10ff76580, {{290.7, 266.3}, {66.0, 66.0}} <AX element pid: 6238, elementOrHash.elementID: 4426592768.54>
+                                                          Image, 0x10ff766c0, {{307.7, 290.3}, {32.0, 19.0}}, identifier: 'activityImageView', label: 'go down' <AX element pid: 6238, elementOrHash.elementID: 4426594688.55>
+                                                          Other, 0x10ff76800, {{282.7, 338.3}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4426594048.56>
+                                                            StaticText, 0x10ff76940, {{282.7, 338.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'View More' <AX element pid: 6238, elementOrHash.elementID: 4417827840.74>
+                                                            StaticText, 0x10ff76a80, {{282.7, 338.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc' <AX element pid: 6238, elementOrHash.elementID: 4417828352.75>
+                                                            Other, 0x10ff76bc0, {{282.7, 338.3}, {82.0, 14.3}} <AX element pid: 6238, elementOrHash.elementID: 4427686208.76>
+                                                    Other, 0x10ff76d00, {{27.7, 129.0}, {328.7, 1.0}} <AX element pid: 6238, elementOrHash.elementID: 4353676800.23>
+                                              Toolbar, 0x10ff76e40, {{0.0, 0.0}, {384.0, 384.7}}, identifier: 'Toolbar', label: 'Toolbar' <AX element pid: 6238, elementOrHash.elementID: 4353682432.10>
+                                                Other, 0x10ff76f80, {{0.0, 0.0}, {384.0, 384.7}} <AX element pid: 6238, elementOrHash.elementID: 4420653440.17>
+  Window, 0x10ff770c0, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4379794944.5>
+    Other, 0x10ff77200, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4422956544.7>
+      Other, 0x10ff77340, {{0.0, 0.0}, {402.0, 874.0}} <AX element pid: 6124, elementOrHash.elementID: 4422957568.9>
