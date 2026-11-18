@@ -113,6 +113,10 @@ final class ProbeTests: XCTestCase {
         XCUIDevice.shared.press(.home)
         sleep(2)
         keep("home-screen", tree: springboard)
+        // New icons land on a later Home Screen page: swipe until it is on screen.
+        let icon = springboard.icons["RITMO Dev"]
+        for _ in 0..<4 where icon.exists && !icon.isHittable { springboard.swipeLeft(); sleep(1) }
+        log("icon exists \(icon.exists) hittable \(icon.isHittable)")
         guard tap("RITMO Dev", in: springboard, timeout: 8) else {
             keep("no-icon", tree: springboard); saveLog()
             XCTFail("RITMO Dev icon not found"); return
