@@ -9,11 +9,19 @@ import XCTest
 final class StatusBarTests: SimTestCase {
     let base = "http://localhost:8000/"
 
-    func dimCycle(_ tag: String) {
-        tap("Dim", in: web, timeout: 4, orAt: CGPoint(x: 201, y: 547))
+    /// Tap a button on the test page by label; if the web app can't be queried (after a relaunch
+    /// XCTest sometimes reports it as not running), tap its position. `y` is in page coordinates;
+    /// `top` is where the page starts on screen (62 below the clock, 0 when drawing under it).
+    func pageTap(_ label: String, x: CGFloat, y: CGFloat, top: CGFloat) {
+        if web.state == .runningForeground, tap(label, in: web, timeout: 3) { return }
+        tapPoint(x, y + top, "'\(label)' by position")
+    }
+
+    func dimCycle(_ tag: String, top: CGFloat) {
+        pageTap("Dim", x: 201, y: 546, top: top)
         usleep(150_000); keep("\(tag)-dim-mid")
         sleep(2); keep("\(tag)-dim-on")
-        tap("Dim", in: web, timeout: 4, orAt: CGPoint(x: 201, y: 547))
+        pageTap("Dim", x: 201, y: 546, top: top)
         sleep(2); keep("\(tag)-dim-off")
     }
 
@@ -21,19 +29,19 @@ final class StatusBarTests: SimTestCase {
         log("screen \(XCUIScreen.main.screenshot().image.size)")
         addToHomeScreen(URL(string: base)!, pageTitle: "localhost", tag: "def")
         if openIcon("SB default", tag: "def") {
-            sleep(2); keep("def-readings"); dimCycle("def")
+            sleep(2); keep("def-readings"); dimCycle("def", top: 62)
             // switch the installed default app to black-translucent: reload, then a full relaunch
-            tap("Use translucent", in: web, timeout: 4, orAt: CGPoint(x: 110, y: 627))
+            pageTap("Use translucent", x: 110, y: 626, top: 62)
             sleep(4); keep("def-switched-reload")
             web.terminate(); sleep(2)
             if openIcon("SB default", tag: "def-relaunch") {
-                sleep(2); keep("def-switched-relaunch"); dimCycle("def-switched")
+                sleep(2); keep("def-switched-relaunch"); dimCycle("def-switched", top: 0)
                 // dark content under the clock: does the clock turn light?
-                tap("Dark top", in: web, timeout: 4); sleep(2); keep("def-switched-dark-top")
-                dimCycle("def-switched-dark")
-                tap("Dark top", in: web, timeout: 4); sleep(2); keep("def-switched-light-again")
+                pageTap("Dark top", x: 201, y: 706, top: 0); sleep(2); keep("def-switched-dark-top")
+                dimCycle("def-switched-dark", top: 0)
+                pageTap("Dark top", x: 201, y: 706, top: 0); sleep(2); keep("def-switched-light-again")
                 // and back to default after a relaunch
-                tap("Use default", in: web, timeout: 4); sleep(3)
+                pageTap("Use default", x: 290, y: 626, top: 0); sleep(3)
                 web.terminate(); sleep(2)
                 if openIcon("SB default", tag: "def-back") { sleep(2); keep("def-back-to-default") }
             }
