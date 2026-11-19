@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="SB static">
 <title>SB static</title>
 <script>
 // Static variant: the status-bar setting is written in the HTML itself, like RITMO's.
 // FILE is changed on the server between tests, to see whether an installed app picks up a new setting.
-window.FILE = "v2 (black-translucent in the HTML)";
+window.FILE = "v3 (default again in the HTML)";
 window.SB = { mode: document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').content, installed: "static", stored: null, variant: "" };
 </script>
 <style>
