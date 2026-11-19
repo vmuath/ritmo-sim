@@ -1,0 +1,56 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=7C8C4E69-F228-4D1B-9EE7-408E7E45298D -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/StatusBarTests" "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-19 00:03:32.373 xcodebuild[6180:24257] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' started.
+PROBE 1795046654.760 screen (402.0, 874.0)
+PROBE 1795046701.375 load attempt 1: false
+PROBE 1795046706.214 load attempt 2: true
+PROBE 1795046711.611 kept 01-def-safari
+PROBE 1795046719.609 NOT FOUND 'Share'
+PROBE 1795046720.076 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795046725.674 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+PROBE 1795046735.640 NOT FOUND 'Add to Home Screen'
+PROBE 1795046741.508 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+PROBE 1795046755.791 kept 02-def-add-screen
+PROBE 1795046756.933 tapped Add (def)
+PROBE 1795046768.074 icon SB default exists true hittable true
+PROBE 1795046837.362 SB default first paint true after 67.7s
+PROBE 1795046840.122 kept 03-def-open
+PROBE 1795046842.513 kept 04-def-readings
+PROBE 1795046844.018 tap 'Dim' at (20.0, 582.0, 362.0, 51.0)
+PROBE 1795046845.575 kept 05-def-dim-mid
+PROBE 1795046847.745 kept 06-def-dim-on
+PROBE 1795046848.167 tap 'Dim' at (20.0, 582.0, 362.0, 51.0)
+PROBE 1795046850.812 kept 07-def-dim-off
+PROBE 1795046851.386 tap 'Use translucent' at (20.0, 662.0, 175.0, 51.0)
+PROBE 1795046856.253 kept 08-def-switched-reload
+PROBE 1795046871.598 icon SB default exists true hittable true
+PROBE 1795046886.262 SB default first paint true after 13.0s
+PROBE 1795046888.469 kept 09-def-relaunch-open
+PROBE 1795046890.689 kept 10-def-switched-relaunch
+PROBE 1795046891.471 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+PROBE 1795046892.494 kept 11-def-switched-dim-mid
+PROBE 1795046894.710 kept 12-def-switched-dim-on
+PROBE 1795046895.104 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+PROBE 1795046897.769 kept 13-def-switched-dim-off
+PROBE 1795046898.149 tap 'Dark top' at (20.0, 680.0, 362.0, 51.0)
+PROBE 1795046901.115 kept 14-def-switched-dark-top
+PROBE 1795046904.405 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+PROBE 1795046905.705 kept 15-def-switched-dark-dim-mid
+PROBE 1795046907.901 kept 16-def-switched-dark-dim-on
+PROBE 1795046908.663 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+PROBE 1795046911.652 kept 17-def-switched-dark-dim-off
+PROBE 1795046912.677 tap 'Dark top' at (20.0, 680.0, 362.0, 51.0)
+PROBE 1795046915.573 kept 18-def-switched-light-again
+PROBE 1795046919.654 tap 'Use default' at (207.0, 600.0, 175.0, 51.0)
+PROBE 1795046945.822 icon SB default exists true hittable true
+PROBE 1795046970.298 SB default first paint true after 22.0s
+PROBE 1795046972.443 kept 19-def-back-open
+PROBE 1795046974.586 kept 20-def-back-to-default
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' passed (330.061 seconds).
+Test Suite 'StatusBarTests' passed at 2026-11-19 00:09:43.728.
+Test Suite 'ProbeUITests.xctest' passed at 2026-11-19 00:09:43.729.
+Test Suite 'Selected tests' passed at 2026-11-19 00:09:43.730.
+2026-11-19 00:09:44.142 xcodebuild[6180:24257] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 00:09:44.149 xcodebuild[6180:24257] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 00:09:44.210 xcodebuild[6180:24257] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).

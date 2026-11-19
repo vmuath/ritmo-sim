@@ -1,0 +1,45 @@
+1795046654.760 screen (402.0, 874.0)
+1795046701.375 load attempt 1: false
+1795046706.214 load attempt 2: true
+1795046711.611 kept 01-def-safari
+1795046719.609 NOT FOUND 'Share'
+1795046720.076 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795046725.674 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+1795046735.640 NOT FOUND 'Add to Home Screen'
+1795046741.508 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+1795046755.791 kept 02-def-add-screen
+1795046756.933 tapped Add (def)
+1795046768.074 icon SB default exists true hittable true
+1795046837.362 SB default first paint true after 67.7s
+1795046840.122 kept 03-def-open
+1795046842.513 kept 04-def-readings
+1795046844.018 tap 'Dim' at (20.0, 582.0, 362.0, 51.0)
+1795046845.575 kept 05-def-dim-mid
+1795046847.745 kept 06-def-dim-on
+1795046848.167 tap 'Dim' at (20.0, 582.0, 362.0, 51.0)
+1795046850.812 kept 07-def-dim-off
+1795046851.386 tap 'Use translucent' at (20.0, 662.0, 175.0, 51.0)
+1795046856.253 kept 08-def-switched-reload
+1795046871.598 icon SB default exists true hittable true
+1795046886.262 SB default first paint true after 13.0s
+1795046888.469 kept 09-def-relaunch-open
+1795046890.689 kept 10-def-switched-relaunch
+1795046891.471 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+1795046892.494 kept 11-def-switched-dim-mid
+1795046894.710 kept 12-def-switched-dim-on
+1795046895.104 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+1795046897.769 kept 13-def-switched-dim-off
+1795046898.149 tap 'Dark top' at (20.0, 680.0, 362.0, 51.0)
+1795046901.115 kept 14-def-switched-dark-top
+1795046904.405 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+1795046905.705 kept 15-def-switched-dark-dim-mid
+1795046907.901 kept 16-def-switched-dark-dim-on
+1795046908.663 tap 'Dim' at (20.0, 520.0, 362.0, 51.0)
+1795046911.652 kept 17-def-switched-dark-dim-off
+1795046912.677 tap 'Dark top' at (20.0, 680.0, 362.0, 51.0)
+1795046915.573 kept 18-def-switched-light-again
+1795046919.654 tap 'Use default' at (207.0, 600.0, 175.0, 51.0)
+1795046945.822 icon SB default exists true hittable true
+1795046970.298 SB default first paint true after 22.0s
+1795046972.443 kept 19-def-back-open
+1795046974.586 kept 20-def-back-to-default
