@@ -93,6 +93,8 @@ jobs:
         run: |
           B=results/${{ github.run_id }}
           rm -rf /tmp/r && mkdir -p /tmp/r && cp -R out/steps out/*.txt out/*.mp4 /tmp/r/ 2>/dev/null || true
+          # GitHub refuses files over 100 MB: long recordings go up in 90 MB parts (cat probe.mp4.part-* > probe.mp4).
+          for f in /tmp/r/*.mp4; do [ -f "$f" ] && [ $(stat -f%z "$f") -gt 94000000 ] && split -b 90m "$f" "$f.part-" && rm "$f"; done; ls -la /tmp/r
           cd /tmp/r && git init -q -b "$B" && git add -A
           git -c user.name=probe -c user.email=probe@users.noreply.github.com commit -qm "Probe results ${{ github.run_id }}"
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" "$B"
