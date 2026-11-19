@@ -1,0 +1,53 @@
+<!doctype html><html lang="en" class="launching"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><meta name="theme-color" content="#f4f2ec"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/><meta name="description" content="Your private, offline home for daily nutrition and habits."/><link rel="apple-touch-icon" href="./apple-touch-icon.png"/><meta name="application-name" content="RITMO"/><meta name="apple-mobile-web-app-title" content="RITMO"/><link rel="icon" type="image/png" href="./favicon.png"/><title>RITMO</title><!-- Personal Hub: legacy repair compatibility --><script>/* 1.49: open in RITMO's own appearance (Me → Appearance), known before the first paint. 1.49.2: the logo's centre sits at 46 % of the screen. The page starts below the status bar (screen.height − innerHeight: 62 pt on the owner's iPhone), but in a launch's first frame the page is still laid out full height (log: 874, then 812), so that frame can't tell. The offset is measured once the height has settled and kept for the next launch (1.50: a new key, so a launch after the page moved under the clock, offset 0, never uses the old 62); until it is known (the very first launch) the logo waits those few frames. */(function(){try{var H=Math.max(screen.width,screen.height),R=document.documentElement;if(navigator.standalone||matchMedia("(display-mode: standalone)").matches){var K="ritmo-page-offset-2",o=parseFloat(localStorage.getItem(K)),ok=function(x){return x>=0&&x<200},place=function(x){R.style.setProperty("--launch-top",Math.round(H*0.46-x-35.5)+"px")};if(ok(o))place(o);else R.classList.add("launch-wait");var last=-1,same=0,n=0;(function f(){var h=window.innerHeight;same=h===last?same+1:0;last=h;if(same>=2||++n>40){var x=H-h;if(ok(x)){try{localStorage.setItem(K,String(x))}catch(e){}if(!ok(o))place(x)}R.classList.remove("launch-wait");return}requestAnimationFrame(f)})()}}catch(e){}try{var a=localStorage.getItem("ritmo-appearance");if(a==="light"||a==="dark"){document.documentElement.setAttribute("data-appearance",a);var m=document.querySelector('meta[name="theme-color"]');if(m)m.setAttribute("content",a==="dark"?"#000000":"#f4f2ec")}}catch(e){}})();</script><style>
+html,body{margin:0;background:#f4f2ec;color:#151a19}html.launching{overflow:hidden;overscroll-behavior:none}#launch{position:fixed;inset:0;z-index:9000;background:#f4f2ec;touch-action:none;-webkit-user-select:none;user-select:none;transition:opacity .2s ease-out}#launch.leaving{opacity:0;pointer-events:none}.launch-logo{position:absolute;left:0;right:0;top:var(--launch-top,calc(46% - 35.5px));margin:0 auto;width:min(280px,75vw);height:auto}.launch-logo.on-dark{display:none}html.launch-wait .launch-logo{visibility:hidden}@media(prefers-color-scheme:dark){:root:not([data-appearance="light"]),:root:not([data-appearance="light"]) body,:root:not([data-appearance="light"]) #launch{background:#000;color:#f5f5f7}:root:not([data-appearance="light"]) .launch-logo.on-light{display:none}:root:not([data-appearance="light"]) .launch-logo.on-dark{display:block}}:root[data-appearance="dark"],:root[data-appearance="dark"] body,:root[data-appearance="dark"] #launch{background:#000;color:#f5f5f7}:root[data-appearance="dark"] .launch-logo.on-light{display:none}:root[data-appearance="dark"] .launch-logo.on-dark{display:block}@media(prefers-reduced-motion:reduce){#launch{transition:none}}
+</style><script>/* 1.49.0.2 launch probe: the first frames' viewport, safe areas and logo position, kept in the on-device log (Me → Settings → tap the version line). */(function(){try{var L=[],t0=performance.now(),n=0,p=document.createElement("div");p.style.cssText="position:fixed;left:0;top:0;width:1px;height:1px;visibility:hidden;pointer-events:none;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)";var r=Math.round;function f(){try{if(!p.isConnected&&document.body)document.body.appendChild(p);var v=window.visualViewport,cs=p.isConnected?getComputedStyle(p):null,lg=null;document.querySelectorAll("#launch .launch-logo").forEach(function(i){if(getComputedStyle(i).display!=="none")lg=i});L.push(r(performance.now()-t0)+" ih "+innerHeight+" ch "+document.documentElement.clientHeight+" vv "+(v?r(v.height)+"@"+r(v.offsetTop):"-")+" sy "+r(scrollY)+" safe "+(cs?parseFloat(cs.paddingTop)+"/"+parseFloat(cs.paddingBottom):"-")+" logo "+(lg?r(lg.getBoundingClientRect().top)+(lg.complete?"":" loading"):"-")+" screen "+screen.height)}catch(e){L.push("err "+e.message)}if(++n<24&&performance.now()-t0<1500)requestAnimationFrame(f);else{try{var k="ritmo.pull-log",o=(localStorage.getItem(k)||"").split("\n").filter(Boolean);localStorage.setItem(k,o.concat(["— launch "+new Date().toTimeString().slice(0,8)+" "+(matchMedia("(display-mode: standalone)").matches?"standalone":"browser")],L).slice(-120).join("\n"))}catch(e){}}}requestAnimationFrame(f)}catch(e){}})();</script>  <script type="module" crossorigin src="./assets/index-s4TUkJqt.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/charts-mVdZrbRW.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-YWqM7kUP.css">
+<link rel="manifest" href="./manifest.webmanifest"></head><body><div id="root"><noscript><p>Enable JavaScript to open RITMO.</p></noscript></div><div id="launch" role="img" aria-label="Opening RITMO"><img class="launch-logo on-light" src="./brand/ritmo-black.svg" width="280" height="71" alt=""/><img class="launch-logo on-dark" src="./brand/ritmo-white.svg" width="280" height="71" alt=""/></div><aside id="boot-repair" hidden style="position:fixed;z-index:99999;inset:auto 16px max(16px,env(safe-area-inset-bottom));max-width:480px;margin:auto;padding:20px;border-radius:20px;background:#202023;color:#fff;font:15px/1.5 system-ui;box-shadow:0 8px 40px #0005"><strong>Having trouble opening RITMO?</strong><p>Repair the downloaded app files while keeping your diary, cards and settings on this device. An internet connection is needed.</p><button id="repair-files" style="font:inherit;padding:12px 16px;border:0;border-radius:12px;background:#151a19;color:white">Repair app files</button> <button id="dismiss-repair" style="font:inherit;padding:12px;border:0;border-radius:12px">Dismiss</button><p id="repair-status" role="status"></p></aside>
+<script>
+(function () {
+  var panel = document.getElementById('boot-repair');
+  var button = document.getElementById('repair-files');
+  var status = document.getElementById('repair-status');
+  var scope = new URL('./', location.href).href;
+  var timer = setTimeout(function () { panel.hidden = false; var l = document.getElementById('launch'); if (l && l.remove) l.remove(); if (document.documentElement) document.documentElement.classList.remove('launching'); }, 15000);
+  window.addEventListener('personal-hub-ready', function () { clearTimeout(timer); panel.hidden = true; });
+  window.addEventListener('personal-hub-repair', function () { panel.hidden = false; });
+  document.getElementById('dismiss-repair').onclick = function () { panel.hidden = true; };
+  button.onclick = async function () {
+    button.disabled = true;
+    status.textContent = 'Checking fresh app files…';
+    var abort = new AbortController();
+    var deadline = setTimeout(function () { abort.abort(); }, 20000);
+    try {
+      var url = new URL('index.html', scope);
+      url.searchParams.set('repair-check', Date.now());
+      var response = await fetch(url, {cache:'no-store', signal:abort.signal});
+      if (!response.ok) throw new Error('Connection failed');
+      var html = await response.text();
+      var doc = new DOMParser().parseFromString(html, 'text/html');
+      var entry = doc.querySelector('script[type="module"][src]');
+      if (!entry || !html.includes('RITMO')) throw new Error('App files unavailable');
+      var asset = new URL(entry.getAttribute('src'), scope);
+      if (asset.origin !== location.origin) throw new Error('Unexpected app source');
+      asset.searchParams.set('repair-check', Date.now());
+      var check = await fetch(asset, {cache:'no-store', signal:abort.signal});
+      if (!check.ok || !(check.headers.get('content-type') || '').includes('javascript')) throw new Error('App script unavailable');
+      await check.text();
+      status.textContent = 'Refreshing app files. Your saved data is kept…';
+      if ('serviceWorker' in navigator) {
+        var registrations = await navigator.serviceWorker.getRegistrations();
+        for (var registration of registrations) if (registration.scope === scope) await registration.unregister();
+      }
+      if ('caches' in window) {
+        var names = await caches.keys();
+        for (var name of names) if (name.startsWith('workbox-precache-') && name.endsWith(scope)) await caches.delete(name);
+      }
+      location.replace(scope);
+    } catch (error) {
+      status.textContent = 'Could not refresh app files. Check your connection and try again. Your diary has not been erased.';
+      button.disabled = false;
+    } finally { clearTimeout(deadline); }
+  };
+})();
+</script></body></html>
