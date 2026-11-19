@@ -1,0 +1,50 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=89625450-84FD-49CC-A64F-01CEF37AF54B -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/BisectTests" "TEST_RUNNER_PROBE_URL=http://localhost:8000/"
+    TEST_RUNNER_PROBE_URL = http://localhost:8000/
+2026-11-19 21:50:44.008 xcodebuild[7896:29190] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.BisectTests testBisect]' started.
+PROBE 1795125088.013 screen (402.0, 874.0)
+PROBE 1795125134.744 load attempt 1: false
+PROBE 1795125135.190 load attempt 2: true
+PROBE 1795125139.360 kept 01-s1-safari
+PROBE 1795125147.358 NOT FOUND 'Share'
+PROBE 1795125147.925 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795125153.799 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+PROBE 1795125165.515 NOT FOUND 'Add to Home Screen'
+PROBE 1795125173.146 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+PROBE 1795125193.469 kept 02-s1-add-screen
+PROBE 1795125194.740 tapped Add (s1)
+PROBE 1795125206.400 icon B s1 exists true hittable true
+PROBE 1795125328.127 B s1 first paint true after 119.9s
+PROBE 1795125330.340 kept 03-s1-open
+PROBE 1795125334.554 kept 04-s1-ready
+PROBE 1795125334.554 SEG s1 start
+PROBE 1795125334.554 SEG s1 dim 4
+PROBE 1795125335.537 tap 'Dim 4' at (207.0, 504.0, 175.0, 73.0)
+PROBE 1795125339.189 SEG s1 dim 2
+PROBE 1795125339.590 tap 'Dim 2' at (207.0, 420.0, 175.0, 73.0)
+PROBE 1795125343.051 SEG s1 dim 5
+PROBE 1795125343.476 tap 'Dim 5' at (20.0, 588.0, 362.0, 74.0)
+PROBE 1795125347.003 SEG s1 end
+PROBE 1795125377.096 load attempt 1: true
+PROBE 1795125380.857 kept 05-r1-safari
+PROBE 1795125389.027 NOT FOUND 'Share'
+PROBE 1795125389.626 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795125394.923 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+PROBE 1795125402.180 expand share sheet
+PROBE 1795125408.009 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+PROBE 1795125417.768 kept 06-r1-add-screen
+PROBE 1795125419.068 tapped Add (r1)
+PROBE 1795125431.508 icon B r1 exists true hittable true
+PROBE 1795125451.007 B r1 first paint true after 17.7s
+PROBE 1795125453.282 kept 07-r1-open
+PROBE 1795125457.517 kept 08-r1-ready
+PROBE 1795125457.517 SEG r1 start
+PROBE 1795125457.517 SEG r1 dock-open 1
+/Users/runner/work/ritmo-sim/ritmo-sim/UITests/Support.swift:65: error: -[ProbeUITests.BisectTests testBisect] : Failed to resolve query: Application com.apple.webapp is not running
+Test Case '-[ProbeUITests.BisectTests testBisect]' failed (422.262 seconds).
+Test Suite 'BisectTests' failed at 2026-11-19 21:58:29.486.
+Test Suite 'ProbeUITests.xctest' failed at 2026-11-19 21:58:29.535.
+Test Suite 'Selected tests' failed at 2026-11-19 21:58:29.535.
+2026-11-19 21:58:32.679 xcodebuild[7896:29190] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 21:58:32.796 xcodebuild[7896:29190] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 21:58:33.023 xcodebuild[7896:29190] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
