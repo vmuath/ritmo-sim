@@ -27,15 +27,28 @@ def ritmo(name, drop):
     print(name, "drops", drop or "nothing", "| theme", '<meta name="theme-color"' in h, "manifest", 'rel="manifest"' in h)
 
 ritmo("r1", [])
+# r5: r1 with the page lock no longer pinning <body> (position stays static; html overflow hidden is kept)
+ritmo("r5", [])
+for js in (P / "r5" / "assets").glob("*.js"):
+    t = js.read_text()
+    if 'n(document.body.style,"position","fixed")' in t:
+        js.write_text(t.replace('n(document.body.style,"position","fixed")', 'n(document.body.style,"position","static")')); print("r5 lock unpinned in", js.name)
 ritmo("r2", ["theme"])
 ritmo("r3", ["manifest"])
 ritmo("r4", ["theme", "manifest", "icon"])
 
 base = (P / "static-v5.html").read_text()
-for name, head in (("s1", ""), ("s2", '<meta name="theme-color" content="#f4f2ec">\n<link rel="manifest" href="./manifest.webmanifest">\n')):
+LOCK = """<script>
+// s3: while a sheet is open, pin <body> the way RITMO's page lock does (position fixed, top -scrollY, width 100%).
+(function () { var o = HTMLDialogElement.prototype.showModal, c = HTMLDialogElement.prototype.close;
+  HTMLDialogElement.prototype.showModal = function () { var b = document.body.style; b.position = "fixed"; b.top = -scrollY + "px"; b.left = "0px"; b.width = "100%"; b.overflow = "hidden"; return o.apply(this, arguments); };
+  HTMLDialogElement.prototype.close = function () { var b = document.body.style; b.position = b.top = b.left = b.width = b.overflow = ""; return c.apply(this, arguments); }; })();
+</script>
+"""
+for name, head in (("s1", ""), ("s2", '<meta name="theme-color" content="#f4f2ec">\n<link rel="manifest" href="./manifest.webmanifest">\n'), ("s3", LOCK)):
     d = P / name; d.mkdir(exist_ok=True)
     h = base.replace('content="SB static"', f'content="B {name}"').replace("<title>SB static</title>", f"<title>B {name}</title>")
     h = h.replace('<meta name="apple-mobile-web-app-title"', head + '<meta name="apple-mobile-web-app-title"', 1)
     (d / "index.html").write_text(h)
     (d / "manifest.webmanifest").write_text(json.dumps({"name": f"B {name}", "short_name": f"B {name}", "start_url": "./", "display": "standalone", "background_color": "#f4f2ec", "theme_color": "#f4f2ec"}))
-    print(name, "theme+manifest" if head else "as SB static")
+    print(name, {"": "as SB static"}.get(head, "with " + ("page lock" if "s3" in head else "theme+manifest")))

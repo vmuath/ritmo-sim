@@ -5,13 +5,13 @@ import XCTest
 ///   s1  SB static v5 (black-translucent; on the owner's phone every dim was followed in the same frame)
 ///   r1  RITMO Dev's build as served (black-translucent; on the phone the clock area steps)
 ///   r2  r1 without theme-color · r3 r1 without the manifest · r4 r1 without theme-color, manifest and touch icon
-///   s2  s1 plus RITMO's theme-color and manifest
+///   s2  s1 plus RITMO's theme-color and manifest · s3 s1 with RITMO's page lock · r5 r1 without the page lock
 /// The run is screen-recorded; "SEG" lines mark each variant's dims in the video.
 final class BisectTests: SimTestCase {
     let base = "http://localhost:8000/"
 
     func ritmoCycles(_ v: String) {
-        for i in 1...2 {
+        for i in 1...3 {
             log("SEG \(v) dock-open \(i)")
             tapPoint(337, 594, "Add to Snack")   // positions under the clock (874 pt page), measured in Chromium; queries on a second web app fail
             sleep(3)
@@ -46,7 +46,7 @@ final class BisectTests: SimTestCase {
 
     func testBisect() throws {
         log("screen \(XCUIScreen.main.screenshot().image.size)")
-        for v in ["r1", "r4", "r2", "r3", "s2"] { run(v) }
+        for v in ["r5", "r1", "s3"] { run(v) }
         saveLog()
     }
 }
