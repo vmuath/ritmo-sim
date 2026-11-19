@@ -1,0 +1,23 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=9EE392F3-D46A-48A7-AA52-C4DE828D3E38 -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/StatusBarTests" "TEST_RUNNER_PROBE_URL=https://preview.ritmoapp.pages.dev/"
+    TEST_RUNNER_PROBE_URL = https://preview.ritmoapp.pages.dev/
+2026-11-19 19:49:46.199 xcodebuild[6592:28579] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' started.
+PROBE 1795117866.666 screen (402.0, 874.0)
+PROBE 1795117911.168 load attempt 1: true
+PROBE 1795117915.733 kept 01-def-safari
+PROBE 1795117923.479 NOT FOUND 'Share'
+PROBE 1795117924.653 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795117932.375 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+PROBE 1795117992.191 NOT FOUND 'Add to Home Screen'
+PROBE 1795117999.049 NOT FOUND 'Add to Home Screen'
+PROBE 1795118042.892 kept 02-def-add-screen
+PROBE 1795118042.983 Add never enabled (def)
+PROBE 1795118058.687 icon SB default exists false hittable false
+PROBE 1795118060.991 kept 03-def-no-icon
+Test Case '-[ProbeUITests.StatusBarTests testStatusBar]' passed (215.634 seconds).
+Test Suite 'StatusBarTests' passed at 2026-11-19 19:54:40.924.
+Test Suite 'ProbeUITests.xctest' passed at 2026-11-19 19:54:40.972.
+Test Suite 'Selected tests' passed at 2026-11-19 19:54:40.974.
+2026-11-19 19:54:43.277 xcodebuild[6592:28579] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 19:54:43.334 xcodebuild[6592:28579] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 19:54:43.453 xcodebuild[6592:28579] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).

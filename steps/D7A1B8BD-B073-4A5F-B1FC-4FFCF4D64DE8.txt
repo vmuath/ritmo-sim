@@ -1,0 +1,91 @@
+Attributes: Application, 0x106bb8a00, pid: 8358, label: 'Safari'
+Element subtree:
+ →Application, 0x106bb8a00, pid: 8358, label: 'Safari'
+    Window (Main), 0x106bb8c80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106bb8f00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106bb9040, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x106bb9180, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SafariWindow?View=Narrow&BarsKeptMinimized=false&UUID=A4AB36AB-F735-418F-861B-668F119FA80F&UsingLoweredBar=true&IsSecure=false&IsTabBarAvailable=false'
+            Other, 0x106bb92c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x106bb97c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x106bb9680, {{0.0, 0.0}, {402.0, 49.0}}
+                  Other, 0x106bb9900, {{0.0, 0.0}, {402.0, 49.0}}
+                  Other, 0x106bb9b80, {{0.0, 0.0}, {402.0, 49.0}}
+                Other, 0x106bb9e00, {{0.0, 0.0}, {402.0, 62.0}}
+                ScrollView, 0x106bb9f40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x106bba300, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x106bba440, {{0.0, 0.0}, {402.0, 102.0}}
+                  Other, 0x106bba1c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x106bb9cc0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'TabDocument?IsLoadedUsingDesktopUserAgent=false&InReaderMode=false&UUID=9FB89191-584D-48C1-A9CF-A089AD413587&IsPrivate=false&IsPageLoaded=true&WebViewProcessID=8399'
+                    WebView, 0x106bbb5c0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'WebView'
+                      WebView, 0x106bbb480, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x106bbb200, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x106bbb340, {{0.0, 0.0}, {402.0, 89.0}}
+                          Other, 0x106bbaf80, {{0.0, 736.0}, {402.0, 138.0}}
+                        WebView, 0x106bbb0c0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x106bbae40, {{0.0, 0.0}, {402.0, 874.0}}
+                            Other, 0x106bbabc0, {{0.0, 0.0}, {402.0, 874.0}}
+                              Other, 0x106bbaa80, {{0.0, 62.0}, {402.0, 874.0}}
+                                Other, 0x106bbad00, {{0.0, 62.0}, {402.0, 754.0}}, label: 'SB default', Focused
+                                  Other, 0x106bba940, {{20.0, 292.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x106bba6c0, {{20.0, 293.0}, {122.0, 25.0}}, label: 'mode default', value: mode default, Focused
+                                  Other, 0x106bba580, {{20.0, 325.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x106bba800, {{20.0, 326.0}, {173.0, 25.0}}, label: 'installed as default', value: installed as default, Focused
+                                  Other, 0x106bba080, {{20.0, 358.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x106bbb840, {{20.0, 359.0}, {264.0, 25.0}}, label: 'innerHeight 714 / screen 874', value: innerHeight 714 / ..., Focused
+                                  Other, 0x106bbb700, {{20.0, 391.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x106bbb980, {{20.0, 392.0}, {181.0, 25.0}}, label: 'safe top 0 bottom 0', value: safe top 0 bottom 0, Focused
+                                  Other, 0x106bbbac0, {{20.0, 424.0}, {362.0, 27.0}}, Focused
+                                    StaticText, 0x106bbbd40, {{20.0, 425.0}, {151.0, 25.0}}, label: 'standalone false', value: standalone false, Focused
+                                  Button, 0x106bbbc00, {{20.0, 582.0}, {362.0, 51.0}}, label: 'Dim', Focused
+                                  Button, 0x106bbbe80, {{20.0, 742.0}, {362.0, 51.0}}, label: 'Dark top', Focused
+                                  Button, 0x106bb88c0, {{20.0, 662.0}, {175.0, 51.0}}, label: 'Use translucent', Focused
+                                  Button, 0x106bb8500, {{207.0, 662.0}, {175.0, 51.0}}, label: 'Use default', Focused
+                        Other, 0x106a72bc0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x106a72d00, {{0.0, 0.0}, {402.0, 89.0}}
+                          Other, 0x106a72f80, {{0.0, 736.0}, {402.0, 138.0}}
+                        Other, 0x106a730c0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                          Other, 0x106a73340, {{396.0, 65.0}, {3.0, 711.3}}
+                        Other, 0x106a73480, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                          Other, 0x106a735c0, {{65.0, 868.0}, {272.0, 3.0}}
+                        Other, 0x106a73840, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                          Other, 0x106a73700, {{396.0, 65.0}, {3.0, 711.3}}
+                        Other, 0x106a70dc0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                          Other, 0x106a70640, {{65.0, 868.0}, {272.0, 3.0}}
+                  Other, 0x10aa3c000, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x10aa3c140, {{334.3, 868.0}, {7.0, 3.0}}
+                  Other, 0x10aa3c280, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x10aa3c3c0, {{334.3, 868.0}, {7.0, 3.0}}
+            Other, 0x10aa3c500, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'CapsuleViewController'
+              Other, 0x10aa3c640, {{0.0, 776.0}, {402.0, 98.0}}
+                Other, 0x10aa3c780, {{0.0, 776.0}, {402.0, 98.0}}
+                  Other, 0x10aa3c8c0, {{0.0, 776.0}, {402.0, 98.0}}
+                    Other, 0x10aa3ca00, {{0.0, 776.0}, {402.0, 98.0}}
+                      Other, 0x10aa3cb40, {{0.0, 776.0}, {402.0, 98.0}}
+                        Other, 0x10aa3cc80, {{0.0, 776.0}, {402.0, 98.0}}
+                          Other, 0x10aa3cdc0, {{0.0, 776.0}, {402.0, 98.0}}
+                      Other, 0x10aa3cf00, {{0.0, 776.0}, {402.0, 98.0}}
+                        Other, 0x10aa3d040, {{0.0, 776.0}, {402.0, 98.0}}
+                Other, 0x10aa3d180, {{34.0, 792.0}, {48.0, 48.0}}
+                  Other, 0x10aa3d2c0, {{34.0, 792.0}, {48.0, 48.0}}
+                    Button, 0x10aa3d400, {{34.0, 792.0}, {48.0, 48.0}}, identifier: 'BackButton', label: 'Back', Disabled
+                Other, 0x10aa3d540, {{90.0, 792.0}, {222.0, 48.0}}
+                  Other, 0x10aa3d680, {{90.0, 792.0}, {222.0, 48.0}}
+                    Other, 0x10aa3d7c0, {{90.0, 792.0}, {222.0, 48.0}}
+                      Other, 0x10aa3d900, {{90.0, 792.0}, {222.0, 48.0}}, identifier: 'CapsuleNavigationBar?isSelected=true&isDistractionControlOverlayUp=false', Selected
+                        Button, 0x10aa3da40, {{90.0, 792.0}, {48.0, 48.0}}, identifier: 'MoreMenuButton', label: 'Page Menu'
+                          StaticText, 0x10aa3db80, {{90.0, 792.0}, {0.0, 0.0}}
+                        TextField, 0x10aa3dcc0, {{165.7, 806.0}, {71.0, 20.3}}, identifier: 'TabBarItemTitle', label: 'Address', value: ‎localhost
+                        Button, 0x10aa3de00, {{281.3, 805.3}, {17.7, 21.7}}, identifier: 'ReloadButton', label: 'refresh'
+                Other, 0x10aa3df40, {{320.0, 792.0}, {48.0, 48.0}}
+                  Other, 0x10aa3e080, {{320.0, 792.0}, {48.0, 48.0}}
+                    Button, 0x10aa3e1c0, {{320.0, 792.0}, {48.0, 48.0}}, identifier: 'TabOverviewButton', label: 'Tabs'
+    Window, 0x10aa3e300, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10aa3e440, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10aa3e580, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x106bb8a00, pid: 8358, label: 'Safari'
+Query chain:
+ →Find: Application 'com.apple.mobilesafari'
+  Output: {
+    Application, 0x10aa3e6c0, pid: 8358, label: 'Safari'
+  }

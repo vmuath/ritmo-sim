@@ -1,0 +1,12 @@
+1795117866.666 screen (402.0, 874.0)
+1795117911.168 load attempt 1: true
+1795117915.733 kept 01-def-safari
+1795117923.479 NOT FOUND 'Share'
+1795117924.653 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795117932.375 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+1795117992.191 NOT FOUND 'Add to Home Screen'
+1795117999.049 NOT FOUND 'Add to Home Screen'
+1795118042.892 kept 02-def-add-screen
+1795118042.983 Add never enabled (def)
+1795118058.687 icon SB default exists false hittable false
+1795118060.991 kept 03-def-no-icon
