@@ -11,7 +11,7 @@
 // Static variant: the status-bar setting is written in the HTML itself, like RITMO's.
 // v4 (19 Nov): black-translucent again, like RITMO Dev, plus four ways to dim the page, to find which one iOS
 // paints behind the clock in one step and which it follows frame by frame.
-window.FILE = "v4 (black-translucent, four dims)";
+window.FILE = "v5 (black-translucent, five dims)";
 window.SB = { mode: document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').content };
 </script>
 <style>
@@ -40,22 +40,31 @@ window.SB = { mode: document.querySelector('meta[name="apple-mobile-web-app-stat
   #s4.closing::backdrop { animation: b4out 180ms ease-in forwards; }
   @keyframes b4in { from { filter: opacity(0); } }
   @keyframes b4out { to { filter: opacity(0); } }
+  /* 5: the sheet's own backdrop hidden; the dim is an ordinary layer in the page (position: absolute), which WebKit
+     never samples for the clock area, so the page itself shows there, dim and all, every frame. */
+  #s5::backdrop { display: none; }
+  #d5 { position: absolute; left: 0; top: 0; width: 100%; height: 100lvh; background: #00000055; opacity: 0; transition: opacity 220ms ease-out; pointer-events: none; z-index: 5; }
+  #d5.on { opacity: 1; }
+  #d5.off { transition-duration: 180ms; transition-timing-function: ease-in; }
   #probe { position: fixed; top: 0; left: 0; width: 1px; height: 1px; visibility: hidden; padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom); }
 </style>
 </head>
 <body>
 <div id="readings"></div>
-<div id="now">Tap 1, 2, 3, 4</div>
+<div id="now">Tap 1 to 5</div>
 <div class="grid">
   <button id="b1" aria-label="Dim 1">1<small>plain, opacity</small></button>
   <button id="b2" aria-label="Dim 2">2<small>plain, filter</small></button>
   <button id="b3" aria-label="Dim 3">3<small>sheet, opacity</small></button>
   <button id="b4" aria-label="Dim 4">4<small>sheet, filter (RITMO)</small></button>
+  <button id="b5" aria-label="Dim 5" style="grid-column: span 2">5<small>sheet, dim in the page (the fix)</small></button>
 </div>
 <div id="d1" class="dim"></div>
 <div id="d2" class="dim"></div>
 <dialog id="s3"><b>Sheet 3</b></dialog>
 <dialog id="s4"><b>Sheet 4</b></dialog>
+<div id="d5"></div>
+<dialog id="s5"><b>Sheet 5</b></dialog>
 <div id="probe"></div>
 <script>
 function show() {
@@ -73,8 +82,9 @@ var busy = false, now = document.getElementById("now");
 function run(n, on, off) { if (busy) return; busy = true; now.textContent = "Now: " + n; on(); setTimeout(function () { off(); setTimeout(function () { now.textContent = "Done: " + n; busy = false; }, 400); }, 1600); }
 function plain(id) { var d = document.getElementById(id); return [function () { d.classList.add("on"); }, function () { d.classList.remove("on"); }]; }
 function sheet(id) { var s = document.getElementById(id); return [function () { s.showModal(); }, function () { s.classList.add("closing"); setTimeout(function () { s.close(); s.classList.remove("closing"); }, 180); }]; }
-[["b1", plain("d1")], ["b2", plain("d2")], ["b3", sheet("s3")], ["b4", sheet("s4")]].forEach(function (x, i) {
-  document.getElementById(x[0]).onclick = function () { run(i + 1, x[1][0], x[1][1]); };
+function sheet5() { var s = document.getElementById("s5"), d = document.getElementById("d5"); return [function () { d.classList.remove("off"); s.showModal(); d.classList.add("on"); }, function () { d.classList.add("off"); d.classList.remove("on"); setTimeout(function () { s.close(); }, 180); }]; }
+[["b5", sheet5()], ["b1", plain("d1")], ["b2", plain("d2")], ["b3", sheet("s3")], ["b4", sheet("s4")]].forEach(function (x, i) {
+  document.getElementById(x[0]).onclick = function () { run(x[0].slice(1), x[1][0], x[1][1]); };
 });
 </script>
 </body>
