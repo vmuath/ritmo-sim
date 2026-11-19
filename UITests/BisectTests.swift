@@ -13,11 +13,11 @@ final class BisectTests: SimTestCase {
     func ritmoCycles(_ v: String) {
         for i in 1...2 {
             log("SEG \(v) dock-open \(i)")
-            tap("Log snack", in: web, timeout: 6)
+            tapPoint(337, 594, "Add to Snack")   // positions under the clock (874 pt page), measured in Chromium; queries on a second web app fail
             sleep(3)
             if i == 1 { keep("\(v)-dock") }
             log("SEG \(v) dock-close \(i)")
-            tap("Close", in: web, timeout: 3, orAt: CGPoint(x: 359, y: 207))
+            tapPoint(360, 207, "dock ✕")
             sleep(3)
         }
     }
@@ -25,7 +25,8 @@ final class BisectTests: SimTestCase {
     func staticCycles(_ v: String) {
         for n in ["4", "2", "5"] {
             log("SEG \(v) dim \(n)")
-            tap("Dim \(n)", in: web, timeout: 4)
+            let at: [String: CGPoint] = ["4": CGPoint(x: 294, y: 540), "2": CGPoint(x: 294, y: 456), "5": CGPoint(x: 201, y: 625)]
+            tapPoint(at[n]!.x, at[n]!.y, "Dim \(n)")
             sleep(3)
         }
     }
@@ -39,13 +40,13 @@ final class BisectTests: SimTestCase {
         log("SEG \(v) start")
         if ritmo { ritmoCycles(v) } else { staticCycles(v) }
         log("SEG \(v) end")
-        web.terminate()
+        XCUIDevice.shared.press(.home)   // not web.terminate(): XCTest loses the web app after the first one
         sleep(2)
     }
 
     func testBisect() throws {
         log("screen \(XCUIScreen.main.screenshot().image.size)")
-        for v in ["s1", "r1", "r4", "r2", "r3", "s2"] { run(v) }
+        for v in ["r1", "r4", "r2", "r3", "s2"] { run(v) }
         saveLog()
     }
 }
