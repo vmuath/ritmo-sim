@@ -1,0 +1,119 @@
+1795128126.658 screen (402.0, 874.0)
+1795128156.843 load attempt 1: true
+1795128162.369 kept 01-r1-safari
+1795128169.993 NOT FOUND 'Share'
+1795128170.643 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795128175.373 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+1795128185.732 NOT FOUND 'Add to Home Screen'
+1795128191.397 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+1795128205.029 kept 02-r1-add-screen
+1795128206.984 tapped Add (r1)
+1795128218.298 icon B r1 exists true hittable true
+1795128322.400 B r1 first paint true after 102.2s
+1795128324.743 kept 03-r1-open
+1795128328.936 kept 04-r1-ready
+1795128328.936 SEG r1 start
+1795128328.936 SEG r1 dock-open 1
+1795128328.936 tap point (337.0,594.0) Add to Snack
+1795128334.234 kept 05-r1-dock
+1795128334.234 SEG r1 dock-close 1
+1795128334.234 tap point (360.0,207.0) dock ✕
+1795128337.771 SEG r1 dock-open 2
+1795128337.771 tap point (337.0,594.0) Add to Snack
+1795128343.473 SEG r1 dock-close 2
+1795128343.473 tap point (360.0,207.0) dock ✕
+1795128347.529 SEG r1 end
+1795128378.855 load attempt 1: true
+1795128382.030 kept 06-r4-safari
+1795128389.908 NOT FOUND 'Share'
+1795128390.367 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795128394.562 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+1795128400.416 expand share sheet
+1795128404.811 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+1795128409.110 kept 07-r4-add-screen
+1795128410.115 tapped Add (r4)
+1795128420.561 icon B r4 exists true hittable true
+1795128427.879 B r4 first paint true after 5.4s
+1795128430.041 kept 08-r4-open
+1795128434.240 kept 09-r4-ready
+1795128434.240 SEG r4 start
+1795128434.240 SEG r4 dock-open 1
+1795128434.240 tap point (337.0,594.0) Add to Snack
+1795128438.121 kept 10-r4-dock
+1795128438.121 SEG r4 dock-close 1
+1795128438.121 tap point (360.0,207.0) dock ✕
+1795128441.797 SEG r4 dock-open 2
+1795128441.798 tap point (337.0,594.0) Add to Snack
+1795128447.488 SEG r4 dock-close 2
+1795128447.488 tap point (360.0,207.0) dock ✕
+1795128451.370 SEG r4 end
+1795128469.700 load attempt 1: true
+1795128473.085 kept 11-r2-safari
+1795128480.798 NOT FOUND 'Share'
+1795128482.028 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795128488.470 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+1795128496.909 expand share sheet
+1795128503.703 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+1795128510.533 kept 12-r2-add-screen
+1795128511.452 tapped Add (r2)
+1795128522.677 icon B r2 exists true hittable true
+1795128537.188 B r2 first paint true after 10.0s
+1795128539.402 kept 13-r2-open
+1795128543.597 kept 14-r2-ready
+1795128543.597 SEG r2 start
+1795128543.597 SEG r2 dock-open 1
+1795128543.597 tap point (337.0,594.0) Add to Snack
+1795128547.755 kept 15-r2-dock
+1795128547.756 SEG r2 dock-close 1
+1795128547.756 tap point (360.0,207.0) dock ✕
+1795128551.395 SEG r2 dock-open 2
+1795128551.396 tap point (337.0,594.0) Add to Snack
+1795128557.470 SEG r2 dock-close 2
+1795128557.471 tap point (360.0,207.0) dock ✕
+1795128561.636 SEG r2 end
+1795128610.457 load attempt 1: false
+1795128640.139 load attempt 2: true
+1795128671.447 kept 16-r3-safari
+1795128679.481 NOT FOUND 'Share'
+1795128684.187 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795128703.819 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+1795128716.795 expand share sheet
+1795128722.845 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+1795128731.909 kept 17-r3-add-screen
+1795128733.314 tapped Add (r3)
+1795128744.496 icon B r3 exists true hittable true
+1795128760.651 B r3 first paint true after 13.0s
+1795128762.960 kept 18-r3-open
+1795128767.212 kept 19-r3-ready
+1795128767.213 SEG r3 start
+1795128767.213 SEG r3 dock-open 1
+1795128767.213 tap point (337.0,594.0) Add to Snack
+1795128772.731 kept 20-r3-dock
+1795128772.732 SEG r3 dock-close 1
+1795128772.732 tap point (360.0,207.0) dock ✕
+1795128777.655 SEG r3 dock-open 2
+1795128777.656 tap point (337.0,594.0) Add to Snack
+1795128784.264 SEG r3 dock-close 2
+1795128784.264 tap point (360.0,207.0) dock ✕
+1795128788.179 SEG r3 end
+1795128830.430 load attempt 1: true
+1795128836.582 kept 21-s2-safari
+1795128844.455 NOT FOUND 'Share'
+1795128845.798 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+1795128851.529 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+1795128858.946 expand share sheet
+1795128864.008 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+1795128871.134 kept 22-s2-add-screen
+1795128873.053 tapped Add (s2)
+1795128883.649 icon B s2 exists true hittable true
+1795128893.399 B s2 first paint true after 5.6s
+1795128895.628 kept 23-s2-open
+1795128899.878 kept 24-s2-ready
+1795128899.878 SEG s2 start
+1795128899.878 SEG s2 dim 4
+1795128899.880 tap point (294.0,540.0) Dim 4
+1795128903.730 SEG s2 dim 2
+1795128903.731 tap point (294.0,456.0) Dim 2
+1795128907.551 SEG s2 dim 5
+1795128907.552 tap point (201.0,625.0) Dim 5
+1795128911.165 SEG s2 end
