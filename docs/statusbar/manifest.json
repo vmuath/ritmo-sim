@@ -1,0 +1,1 @@
+{"name": "SB manifest", "short_name": "SB manifest", "start_url": "./?mf=1", "display": "standalone", "background_color": "#f4f2ec", "theme_color": "#f4f2ec", "scope": "./"}

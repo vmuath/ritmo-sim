@@ -13,10 +13,16 @@
   try { stored = localStorage.getItem("sb-mode"); } catch (e) {}
   var installed = q.get("m") === "bt" ? "black-translucent" : "default";
   var mode = stored || installed;
-  window.SB = { mode: mode, installed: installed, stored: stored };
+  // Variants that mirror RITMO's head, to find what keeps RITMO below the clock:
+  //   ?tc=1  theme-color #f4f2ec (RITMO has it)    ?mf=1  a web app manifest, display standalone (RITMO has it)
+  var tc = q.get("tc") === "1", mf = q.get("mf") === "1";
+  var name = tc && mf ? "SB both" : tc ? "SB theme" : mf ? "SB manifest" : installed === "default" ? "SB default" : "SB bt";
+  window.SB = { mode: mode, installed: installed, stored: stored, variant: (tc ? "theme-color " : "") + (mf ? "manifest" : "") };
   document.write('<meta name="apple-mobile-web-app-status-bar-style" content="' + mode + '">');
-  document.write('<meta name="apple-mobile-web-app-title" content="' + (installed === "default" ? "SB default" : "SB bt") + '">');
-  document.write('<title>' + (installed === "default" ? "SB default" : "SB bt") + '</title>');
+  document.write('<meta name="apple-mobile-web-app-title" content="' + name + '">');
+  document.write('<title>' + name + '</title>');
+  if (tc) document.write('<meta name="theme-color" content="#f4f2ec">');
+  if (mf) document.write('<link rel="manifest" href="manifest' + (tc ? "-both" : "") + '.json">');
 })();
 </script>
 <style>
@@ -45,7 +51,7 @@ function show() {
   var cs = getComputedStyle(document.getElementById("probe"));
   var L = [
     "mode " + SB.mode + (SB.stored ? " (stored)" : ""),
-    "installed as " + SB.installed,
+    "installed as " + SB.installed + (SB.variant ? " + " + SB.variant : ""),
     "innerHeight " + innerHeight + " / screen " + screen.height,
     "safe top " + parseFloat(cs.paddingTop) + " bottom " + parseFloat(cs.paddingBottom),
     "standalone " + (navigator.standalone === true)
