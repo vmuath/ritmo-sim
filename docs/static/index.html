@@ -27,7 +27,8 @@ window.SB = { mode: document.querySelector('meta[name="apple-mobile-web-app-stat
   .dim { position: fixed; inset: 0; background: #00000055; pointer-events: none; z-index: 5; }
   #d1 { opacity: 0; transition: opacity 220ms ease-out; }
   #d1.on { opacity: 1; }
-  #d2 { filter: opacity(0); transition: filter 220ms ease-out; }
+  #d2 { display: none; filter: opacity(0); transition: filter 220ms ease-out; }
+  #d2.shown { display: block; }
   #d2.on { filter: opacity(1); }
   /* 3 and 4: a modal dialog (a light sheet at the bottom) with its backdrop, as RITMO's dock. */
   dialog { margin: auto 0 0; width: 100%; max-width: none; height: 45vh; border: 0; border-radius: 26px 26px 0 0; padding: 24px; box-sizing: border-box; background: #f4f2ec; }
@@ -83,7 +84,9 @@ function run(n, on, off) { if (busy) return; busy = true; now.textContent = "Now
 function plain(id) { var d = document.getElementById(id); return [function () { d.classList.add("on"); }, function () { d.classList.remove("on"); }]; }
 function sheet(id) { var s = document.getElementById(id); return [function () { s.showModal(); }, function () { s.classList.add("closing"); setTimeout(function () { s.close(); s.classList.remove("closing"); }, 180); }]; }
 function sheet5() { var s = document.getElementById("s5"), d = document.getElementById("d5"); return [function () { d.classList.remove("off"); s.showModal(); d.classList.add("on"); }, function () { d.classList.add("off"); d.classList.remove("on"); setTimeout(function () { s.close(); }, 180); }]; }
-[["b5", sheet5()], ["b1", plain("d1")], ["b2", plain("d2")], ["b3", sheet("s3")], ["b4", sheet("s4")]].forEach(function (x, i) {
+// 2 is added only while it runs: idle on the page at filter opacity(0), WebKit would count it as a dim and grey the clock area for every other test.
+function plain2() { var d = document.getElementById("d2"); return [function () { d.classList.add("shown"); requestAnimationFrame(function () { requestAnimationFrame(function () { d.classList.add("on"); }); }); }, function () { d.classList.remove("on"); setTimeout(function () { d.classList.remove("shown"); }, 220); }]; }
+[["b5", sheet5()], ["b1", plain("d1")], ["b2", plain2()], ["b3", sheet("s3")], ["b4", sheet("s4")]].forEach(function (x, i) {
   document.getElementById(x[0]).onclick = function () { run(x[0].slice(1), x[1][0], x[1][1]); };
 });
 </script>
