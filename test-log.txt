@@ -1,0 +1,89 @@
+    /Applications/Xcode_27.1.app/Contents/Developer/usr/bin/xcodebuild test-without-building -project Probe.xcodeproj -scheme Probe -destination id=5CEF5B27-E565-4EFB-ACCB-B0BB5CB50A13 -derivedDataPath dd -resultBundlePath out/probe.xcresult "-only-testing:ProbeUITests/BisectTests" "TEST_RUNNER_PROBE_URL=http://localhost:8000/"
+    TEST_RUNNER_PROBE_URL = http://localhost:8000/
+2026-11-19 23:08:28.460 xcodebuild[6705:25326] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+Test Case '-[ProbeUITests.BisectTests testBisect]' started.
+PROBE 1795129741.861 screen (402.0, 874.0)
+PROBE 1795129778.208 load attempt 1: true
+PROBE 1795129781.476 kept 01-r5-safari
+PROBE 1795129788.714 NOT FOUND 'Share'
+PROBE 1795129789.013 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795129793.599 tap 'Share' at (90.0, 330.0, 250.0, 42.0)
+PROBE 1795129801.561 expand share sheet
+PROBE 1795129806.330 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+PROBE 1795129819.204 kept 02-r5-add-screen
+PROBE 1795129821.634 tapped Add (r5)
+PROBE 1795129831.622 icon B r5 exists true hittable true
+PROBE 1795129918.942 B r5 first paint true after 86.2s
+PROBE 1795129921.117 kept 03-r5-open
+PROBE 1795129925.357 kept 04-r5-ready
+PROBE 1795129925.357 SEG r5 start
+PROBE 1795129925.357 SEG r5 dock-open 1
+PROBE 1795129925.357 tap point (337.0,594.0) Add to Snack
+PROBE 1795129930.262 kept 05-r5-dock
+PROBE 1795129930.262 SEG r5 dock-close 1
+PROBE 1795129930.262 tap point (360.0,207.0) dock ✕
+PROBE 1795129933.946 SEG r5 dock-open 2
+PROBE 1795129933.946 tap point (337.0,594.0) Add to Snack
+PROBE 1795129937.388 SEG r5 dock-close 2
+PROBE 1795129937.389 tap point (360.0,207.0) dock ✕
+PROBE 1795129941.061 SEG r5 dock-open 3
+PROBE 1795129941.061 tap point (337.0,594.0) Add to Snack
+PROBE 1795129944.571 SEG r5 dock-close 3
+PROBE 1795129944.571 tap point (360.0,207.0) dock ✕
+PROBE 1795129948.103 SEG r5 end
+PROBE 1795129967.154 load attempt 1: true
+PROBE 1795129970.209 kept 06-r1-safari
+PROBE 1795129977.927 NOT FOUND 'Share'
+PROBE 1795129978.280 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795129982.576 tap 'Share' at (82.3333333333333, 330.0, 250.0, 42.0)
+PROBE 1795129993.872 expand share sheet
+PROBE 1795130021.441 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+PROBE 1795130061.428 kept 07-r1-add-screen
+PROBE 1795130068.234 tapped Add (r1)
+PROBE 1795130094.478 icon B r1 exists true hittable true
+PROBE 1795130134.865 B r1 first paint true after 23.8s
+PROBE 1795130137.101 kept 08-r1-open
+PROBE 1795130141.442 kept 09-r1-ready
+PROBE 1795130141.442 SEG r1 start
+PROBE 1795130141.443 SEG r1 dock-open 1
+PROBE 1795130141.445 tap point (337.0,594.0) Add to Snack
+PROBE 1795130147.013 kept 10-r1-dock
+PROBE 1795130147.013 SEG r1 dock-close 1
+PROBE 1795130147.013 tap point (360.0,207.0) dock ✕
+PROBE 1795130150.540 SEG r1 dock-open 2
+PROBE 1795130150.540 tap point (337.0,594.0) Add to Snack
+PROBE 1795130156.042 SEG r1 dock-close 2
+PROBE 1795130156.042 tap point (360.0,207.0) dock ✕
+PROBE 1795130159.778 SEG r1 dock-open 3
+PROBE 1795130159.779 tap point (337.0,594.0) Add to Snack
+PROBE 1795130164.652 SEG r1 dock-close 3
+PROBE 1795130164.652 tap point (360.0,207.0) dock ✕
+PROBE 1795130168.670 SEG r1 end
+PROBE 1795130185.276 load attempt 1: true
+PROBE 1795130187.774 kept 11-s3-safari
+PROBE 1795130195.265 NOT FOUND 'Share'
+PROBE 1795130195.506 tap 'Page Menu' at (90.0, 792.0, 48.0, 48.0)
+PROBE 1795130199.677 tap 'Share' at (82.3333333333333, 330.0, 250.0, 42.0)
+PROBE 1795130204.975 expand share sheet
+PROBE 1795130209.145 tap 'Add to Home Screen' at (16.0, 612.0, 370.0, 50.33333333333337)
+PROBE 1795130212.651 kept 12-s3-add-screen
+PROBE 1795130215.061 tapped Add (s3)
+PROBE 1795130224.857 icon B s3 exists true hittable true
+PROBE 1795130233.562 B s3 first paint true after 7.5s
+PROBE 1795130235.705 kept 13-s3-open
+PROBE 1795130239.837 kept 14-s3-ready
+PROBE 1795130239.837 SEG s3 start
+PROBE 1795130239.837 SEG s3 dim 4
+PROBE 1795130239.838 tap point (294.0,540.0) Dim 4
+PROBE 1795130243.324 SEG s3 dim 2
+PROBE 1795130243.324 tap point (294.0,456.0) Dim 2
+PROBE 1795130246.799 SEG s3 dim 5
+PROBE 1795130246.800 tap point (201.0,625.0) Dim 5
+PROBE 1795130250.375 SEG s3 end
+Test Case '-[ProbeUITests.BisectTests testBisect]' passed (532.784 seconds).
+Test Suite 'BisectTests' passed at 2026-11-19 23:17:53.888.
+Test Suite 'ProbeUITests.xctest' passed at 2026-11-19 23:17:53.889.
+Test Suite 'Selected tests' passed at 2026-11-19 23:17:53.889.
+2026-11-19 23:17:54.190 xcodebuild[6705:25326] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 23:17:54.198 xcodebuild[6705:25326] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
+2026-11-19 23:17:54.243 xcodebuild[6705:25326] [MT] IDESchemeActionSDKRecord: operatingSystemBuild = <DVTBuildVersion 24A94232>, error = invalidDigitCount(94232).
